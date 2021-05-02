@@ -1,43 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>holst-na-zakaz</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+  <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+  <title>holst-na-zakaz</title>
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+  <header class="header wrap">
+    <div class="header__inner">
+      <a href="#" class="header__logo">HOLST-NA-ZAKAZ</a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Главная</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">О печати на холсте</a>
+          </li>
+          <li class="menu__list-item menu__dropdown">
+            <div class="menu__dropdown-arr">
+              <a class="menu__list-link" href="#">Портреты на холсте</a>
+              <div class="arr"></div>
+            </div>
+            <ul class="dropdown">
+              <li><a href="#">Живопись</a></li>
+              <li><a href="#">Дрим-арт</a></li>
+              <li><a href="#">Фотокаллаж</a></li>
+              <li><a href="#">Портрет маслом</a></li>
+              <li><a href="#">Портрет в образе</a></li>
+              <li><a href="#">Фотомазайка</a></li>
+              <li><a href="#">Love-is</a></li>
+            </ul>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="menu__login">
+          <button class="menu__login-btn">Войти</button>
+          <a class="menu__registration" href="#">Регистрация</a>
+        </div>
+      </nav>
+    </div>
+    <a class="header__phone" href="tel:+7495115-38-16">
+      <p class="header__phone-text">+7 (495) 115-38-16</p>
+    </a>
+  </header>
+  <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+  <!-- <div id="root"></div> -->
+  <section class="section section__start wrap">
+    <div class="start__inner">
+      <div class="start__item">
+        <div class="start__text-block">
+          <h1 class="title-1 start__title">Печать на холсте по фото со скидкой -25%</h1>
+          <p class="start__text">
+            Изготовление заказа от 30 минут и бесплатная доставка по Москве
+          </p>
+        </div>
+        <a href="#">
+          <button class="btn btn--start">Рассчитать стоимость</button>
+        </a>
+      </div>
+    </div>
+  </section>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <section class="section section__offer wrap">
+
+  </section>
+
+  <footer class="footer wrap">
+    <div class="footer__inner contacts">
+      <div class="contacts-column">
+        <div class="contacts__contacts">
+          <h4 class="contacts__title">Контакты</h4>
+          <p class="contacts__contacts-adress">Бесплатный звонок по РФ: <br> 8 800 302-2532 <br> Адрес: г. Москва <br>
+            МКАД 24 км вл. 3</p>
+          <button class="btn btn__map">Посмотреть на карте</button>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-whatsapp"></div>
+            <p class="contacts__text">+7 968 603-85-98</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-telepphone"></div>
+            <p class="contacts__text">+7 (495) 115-38-16 (Москва)</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-telepphone"></div>
+            <p class="contacts__text">+7 (812) 408-08-17 (Санкт-Петербург)</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-email"></div>
+            <p class="contacts__text">zakaz@holst-na-zakaz.ru</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-skype"></div>
+            <p class="contacts__text">Holst-na-zakaz.ru</p>
+          </div>
+        </div>
+      </div>
+      <div class="contacts-column">
+        <div class="contacts__worktime">
+          <h4 class="contacts__title">График работы</h4>
+          <p class="contacts__text">ПН-ПТ - c 10:00 до 18:00</p>
+        </div>
+        <div class="contacts__requisites">
+          <h4 class="contacts__title">Реквизиты</h4>
+          <a href="#">
+            <p class="contacts__text">Скачать реквизиты</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text"><br></p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Политика конфиденциальности</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Условия публичной оферты</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Узнайте о скидках и акциях</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Для сотрудничества</p>
+          </a>
+        </div>
+      </div>
+      <div class="contacts-column">
+        <div class="contacts__pay">
+          <div class="contacts__title">Принимаем к оплате</div>
+          <div class="contacts__pay-cards">
+            <div class="contacts__pay-card pict-visa"></div>
+            <div class="contacts__pay-card pict-master"></div>
+            <div class="contacts__pay-card pict-mir"></div>
+            <div class="contacts__pay-card pict-yandexmoney"></div>
+          </div>
+        </div>
+        <div class="contacts__delivery">
+          <div class="contacts__title">Доставляем по РФ</div>
+          <div class="contacts__delivery-logos">
+            <div class="contacts__delivery pict-cdek"></div>
+            <div class="contacts__delivery pict-ems"></div>
+          </div>
+        </div>
+        <div class="contacts__social">
+          <div class="contacts__title">Подписывайтесь на нас</div>
+          <div class="contacts__social-logos">
+            <div class="contacts__social-logo pict-vk"></div>
+            <div class="contacts__social-logo pict-instagramm"></div>
+            <div class="contacts__social-logo pict-facebook"></div>
+            <div class="contacts__social-logo pict-youtube"></div>
+            <div class="contacts__social-logo pict-twitter"></div>
+            <div class="contacts__social-logo pict-odnoklassniki"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="footer__author">© Холст на заказ, 2017-2021 | holst-na-zakaz.ru | info@holst-na-zakaz.ru</p>
+  </footer>
+</body>
+
 </html>

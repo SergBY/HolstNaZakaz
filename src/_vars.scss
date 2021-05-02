@@ -1,0 +1,40 @@
+%title-1 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 51px;
+}
+
+%title-2 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 29px;
+}
+
+%title-3 {
+  font-family: "Roboto-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 24px;
+}
+
+%main-text {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+%gradient {
+  background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
+}
+%gradient-footer {
+  background: linear-gradient(294.48deg, #EF780A 71.28%, #FFA722 101.62%);
+}
+
+$color_white: #FFF;
+$color_orange: #FA5F2E;
+$color_lightOrange: #F5841B;
+$color_yellow: #FFCF26;
+$color_text: #341B04;
