@@ -85,22 +85,23 @@ button {
 }
 
 .section {
-    width: 1600px;
+    max-width: 1600px;
 }
 
 .btn {
-    width: 291px;
-    height: 59px;
+    width: 290px;
+    height: 60px;
     border-radius: 63px;
     border: none;
     font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
     color: $color_white;
     @extend %gradient;
     cursor: pointer;
 }
 
 .section__start {
-    width: 100%;
     height: 828px;
     background-image: url("assets/images/start_bg.jpg");
     background-position-x: center;
@@ -118,7 +119,7 @@ button {
     width: 594px;
     margin-bottom: 3px;
     font-size: 45px;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
 }
 
 .start__text {
@@ -127,6 +128,7 @@ button {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 27px;
+    margin-top: 12px;
 }
 
 .header {
@@ -142,23 +144,24 @@ button {
         margin-top: 49px;
         width: 75vw;
         max-width: 1200px;
+        min-width: 850px;
     }
 
     &__logo {
         font-weight: 900;
         font-size: 24px;
         line-height: 28px;
-        letter-spacing: 0.06em;
-
+        letter-spacing: -0.02em;
     }
 
     .menu {
         width: 563px;
         display: flex;
-        align-items: flex-start;
+        align-items: end;
         justify-content: space-between;
         font-size: 14px;
         line-height: 16px;
+        margin-top: 5px;
 
         &__list {
             width: 460px;
@@ -227,7 +230,6 @@ button {
             height: 7px;
             margin-left: 4px;
             margin-top: 6px;
-            fill: aqua;
         }
 
         .menu__dropdown:hover>ul {
@@ -244,8 +246,8 @@ button {
 
     &__phone {
         position: absolute;
-        top: 103px;
-        right: 12.5%;
+        top: 108px;
+        right: 13%;
 
         ::before {
             position: absolute;

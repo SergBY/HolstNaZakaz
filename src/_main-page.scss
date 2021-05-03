@@ -2,49 +2,194 @@
 
 .section__offer {
     height: 800px;
-    margin-top: 85px;
+    margin-top: 108px;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.offer__title {
-    margin-bottom: 40px;
-}
-
-.offer__subtitle {
-    margin-bottom: 20px;
-}
-
-.offer__text {
-    margin-top: 20px;
-}
-
-.offer__item {
-    width: 1200px;
-    height: 320px;
-    display: flex;
-    margin-bottom: 69px;
-    // justify-content: space-between;
-    &-left--img {
-        width: 483px;
-        height: 319px;
-        border-radius: 10px;
-        background-image: url("assets/images/offer_left_1.jpg");
-        margin-right: 30px;
+.offer {
+    &__title {
+        margin-bottom: 40px;
     }
-    &-right--img {
-        width: 482px;
-        height: 320px;
-        border-radius: 10px;
-        background-image: url("assets/images/offer_right_1.jpg");
-        margin-left: 30px;
+
+    &__subtitle {
+        margin-bottom: 20px;
     }
-    &--text-block {
-        width: 687px;
+
+    &__text {
+        margin-bottom: 28px;
+        width: 645px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    &__item {
+        width: 1200px;
         height: 320px;
         display: flex;
-        flex-direction:column;
+        margin-bottom: 69px;
+
+        // justify-content: space-between;
+        &-left--img {
+            width: 483px;
+            height: 319px;
+            border-radius: 10px;
+            background-image: url("assets/images/offer_left_1.jpg");
+            margin-right: 30px;
+        }
+
+        &-right--img {
+            width: 482px;
+            height: 320px;
+            border-radius: 10px;
+            background-image: url("assets/images/offer_right_1.jpg");
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        &--text-block {
+            width: 687px;
+            height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
+
+.section__stages {
+    height: 615px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.stages {
+    &__item {
+        width: 1200px;
+        display: flex;
         justify-content: space-between;
+    }
+
+    &__column {
+        width: 316px;
+        height: 546px;
+        width: 316px;
+        height: 546px;
+    }
+
+    &__column--point {
+        display: flex;
+        align-items: start;
+    }
+
+    &__column--number {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background: #F5841B;
+        color: $color_white;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 31px;
+    }
+
+    &__column--article {
+        margin-bottom: 44px;
+    }
+
+    &__column--text {
+        width: 253px;
+        margin-top: 12px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 19px;
+    }
+
+    &__item--img {
+        width: 790px;
+        height: 452px;
+        border-radius: 10px;
+        background-image: url("assets/images/stages.jpg");
+    }
+}
+
+.section__selection {
+    height: 266px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.selection {
+
+    &__item {
+        max-width: 1200px;
+        min-width: 820px;
+        display: flex;
+        justify-content: space-around;
+        width: 75vw;
+    }
+
+    &__title {
+        margin-bottom: 36px;
+    }
+
+    &__block {
+        width: 197px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__block--pict {
+        width: 129px;
+        height: 129px;
+        border-radius: 50%;
+        @extend %gradient;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__block--pict-delivery {
+        width: 89px;
+        height: 89px;
+        background-image: url("assets/images/fast-delivery.svg");
+    }
+
+    &__block--pict-printer {
+        width: 71px;
+        height: 71px;
+        background-image: url("assets/images/printer.svg");
+    }
+
+    &__block--pict-wallet {
+        width: 63px;
+        height: 63px;
+        background-image: url("assets/images/wallet.svg");
+    }
+
+    &__block--pict-gift {
+        width: 65px;
+        height: 65px;
+        background-image: url("assets/images/gift.svg");
+    }
+
+    &__block--text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        margin-top: 11px;
     }
 }

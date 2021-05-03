@@ -1,227 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
-    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
-    <title>holst-na-zakaz</title>
-  </head>
 
-  <body>
-    <header class="header wrap">
-      <div class="header__inner">
-        <a href="#" class="header__logo">HOLST-NA-ZAKAZ</a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Главная</a>
-            </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">О печати на холсте</a>
-            </li>
-            <li class="menu__list-item menu__dropdown">
-              <div class="menu__dropdown-arr">
-                <a class="menu__list-link" href="#">Портреты на холсте</a>
-                <div class="arr"></div>
-              </div>
-              <ul class="dropdown">
-                <li><a href="#">Живопись</a></li>
-                <li><a href="#">Дрим-арт</a></li>
-                <li><a href="#">Фотокаллаж</a></li>
-                <li><a href="#">Портрет маслом</a></li>
-                <li><a href="#">Портрет в образе</a></li>
-                <li><a href="#">Фотомазайка</a></li>
-                <li><a href="#">Love-is</a></li>
-              </ul>
-            </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Контакты</a>
-            </li>
-          </ul>
-          <div class="menu__login">
-            <button class="menu__login-btn">Войти</button>
-            <a class="menu__registration" href="#">Регистрация</a>
-          </div>
-        </nav>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+  <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+  <title>holst-na-zakaz</title>
+</head>
+
+<body>
+  <header class="header wrap">
+    <div class="header__inner">
+      <a href="#" class="header__logo">HOLST-NA-ZAKAZ</a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Главная</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">О печати на холсте</a>
+          </li>
+          <li class="menu__list-item menu__dropdown">
+            <div class="menu__dropdown-arr">
+              <a class="menu__list-link" href="#">Портреты на холсте</a>
+              <div class="arr"></div>
+            </div>
+            <ul class="dropdown">
+              <li><a href="#">Живопись</a></li>
+              <li><a href="#">Дрим-арт</a></li>
+              <li><a href="#">Фотокаллаж</a></li>
+              <li><a href="#">Портрет маслом</a></li>
+              <li><a href="#">Портрет в образе</a></li>
+              <li><a href="#">Фотомазайка</a></li>
+              <li><a href="#">Love-is</a></li>
+            </ul>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="menu__login">
+          <button class="menu__login-btn">Войти</button>
+          <a class="menu__registration" href="#">Регистрация</a>
+        </div>
+      </nav>
+    </div>
+    <a class="header__phone" href="tel:+7495115-38-16">
+      <p class="header__phone-text">+7 (495) 115-38-16</p>
+    </a>
+  </header>
+  <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+  <!-- <div id="root"></div> -->
+  <section class="section section__start wrap">
+    <div class="start__inner">
+      <div class="start__item">
+        <div class="start__text-block">
+          <h1 class="title-1 start__title">
+            Печать на холсте по фото со скидкой -25%
+          </h1>
+          <p class="start__text">
+            Изготовление заказа от 30 минут и бесплатная доставка по Москве
+          </p>
+        </div>
+        <a href="#">
+          <button class="btn btn--start">Рассчитать стоимость</button>
+        </a>
       </div>
-      <a class="header__phone" href="tel:+7495115-38-16">
-        <p class="header__phone-text">+7 (495) 115-38-16</p>
-      </a>
-    </header>
-    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
-    <!-- <div id="root"></div> -->
-    <section class="section section__start wrap">
-      <div class="start__inner">
-        <div class="start__item">
-          <div class="start__text-block">
-            <h1 class="title-1 start__title">
-              Печать на холсте по фото со скидкой -25%
-            </h1>
-            <p class="start__text">
-              Изготовление заказа от 30 минут и бесплатная доставка по Москве
+    </div>
+  </section>
+
+  <section class="section section__offer wrap">
+    <div class="offer__inner">
+      <h2 class="title-2 offer__title">Что мы предлагаем?</h2>
+      <div class="offer__item offer__item-left">
+        <div class="offer__item-left--img"></div>
+        <div class="offer__item--text-block">
+          <div class="offer__item--text">
+            <h3 class="title-3 offer__subtitle">Коллаж на холсте</h3>
+            <p class="offer__text">
+              Хотите написать интересную историю из&nbsp;любимых фотографий?
+              Мы&nbsp;предлагаем создать оригинальный фотоколлаж, который без
+              слов расскажет о&nbsp;самых ярких моментах вашей жизни!
+            </p>
+            <p class="offer__text">
+              Необычный красочный коллаж из&nbsp;фото&nbsp;&mdash; это всегда
+              уместный подарок, который понравится всем без исключения.
+              Универсальное решение для поздравления с&nbsp;юбилеем, днем
+              рождения, знаменательной датой и&nbsp;просто&nbsp;&mdash; для
+              поднятия настроения.
             </p>
           </div>
           <a href="#">
-            <button class="btn btn--start">Рассчитать стоимость</button>
+            <button class="btn btn--offer">Узнать больше</button>
           </a>
         </div>
       </div>
-    </section>
-
-    <section class="section section__offer wrap">
-      <div class="offer__inner">
-        <h2 class="title-2 offer__title">Что мы предлагаем?</h2>
-        <div class="offer__item offer__item-left">
-          <div class="offer__item-left--img"></div>
-          <div class="offer__item--text-block">
-            <div class="offer__item--text">
-              <h3 class="title-3 offer__subtitle">Коллаж на холсте</h3>
-              <p class="offer__text">
-                Хотите написать интересную историю из&nbsp;любимых фотографий?
-                Мы&nbsp;предлагаем создать оригинальный фотоколлаж, который без
-                слов расскажет о&nbsp;самых ярких моментах вашей жизни!
-              </p>
-              <p class="offer__text">
-                Необычный красочный коллаж из&nbsp;фото&nbsp;&mdash; это всегда
-                уместный подарок, который понравится всем без исключения.
-                Универсальное решение для поздравления с&nbsp;юбилеем, днем
-                рождения, знаменательной датой и&nbsp;просто&nbsp;&mdash; для
-                поднятия настроения.
-              </p>
-            </div>
-            <a href="#">
-              <button class="btn btn--offer">Узнать больше</button>
-            </a>
-          </div>
-        </div>
-        <div class="offer__item offer__item-right">
-          <div class="offer__item--text-block">
-            <div class="offer__item--text">
-              <h3 class="title-3 offer__subtitle">Портреты в художественных стилях</h3>
-              <p class="offer__text">
-                Портреты могут выполняться в&nbsp;различных стилях: классических,
-                фэнтезийных. Цветовую гамму и&nbsp;стиль оформления подбирает сам
-                заказчик.
-              </p>
-              <p class="offer__text">
-                Если вы&nbsp;знаете, в&nbsp;каком стиле выполнен интерьер
-                в&nbsp;доме (или офисе) того, кому вы&nbsp;собираетесь подарить
-                фотопортрет, можно создать идеально подходящую в&nbsp;него картину,
-                ограничения только в&nbsp;вашей фантазии, а&nbsp;наши опытные
-                мастера и&nbsp;высокотехнологичное современное оборудование могут
-                воплотить в&nbsp;жизнь любую задумку!
-              </p>
-            </div>
-            <a href="#">
-              <button class="btn btn--offer">Узнать больше</button>
-            </a>
-          </div>
-          <div class="offer__item-right--img"></div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer wrap">
-      <div class="footer__inner contacts">
-        <div class="contacts-column">
-          <div class="contacts__contacts">
-            <h4 class="contacts__title">Контакты</h4>
-            <p class="contacts__contacts-adress">
-              Бесплатный звонок по РФ: <br />
-              8 800 302-2532 <br />
-              Адрес: г. Москва <br />
-              МКАД 24 км вл. 3
+      <div class="offer__item offer__item-right">
+        <div class="offer__item--text-block">
+          <div class="offer__item--text">
+            <h3 class="title-3 offer__subtitle">Портреты в художественных стилях</h3>
+            <p class="offer__text">
+              Портреты могут выполняться в&nbsp;различных стилях: классических,
+              фэнтезийных. Цветовую гамму и&nbsp;стиль оформления подбирает сам
+              заказчик.
             </p>
-            <button class="btn btn__map">Посмотреть на карте</button>
-            <div class="contacts__contacts-pictogram">
-              <div class="contacts__pict pict-whatsapp"></div>
-              <p class="contacts__text">+7 968 603-85-98</p>
+            <p class="offer__text">
+              Если вы&nbsp;знаете, в&nbsp;каком стиле выполнен интерьер
+              в&nbsp;доме (или офисе) того, кому вы&nbsp;собираетесь подарить
+              фотопортрет, можно создать идеально подходящую в&nbsp;него картину,
+              ограничения только в&nbsp;вашей фантазии, а&nbsp;наши опытные
+              мастера и&nbsp;высокотехнологичное современное оборудование могут
+              воплотить в&nbsp;жизнь любую задумку!
+            </p>
+          </div>
+          <a href="#">
+            <button class="btn btn--offer">Узнать больше</button>
+          </a>
+        </div>
+        <div class="offer__item-right--img"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__stages wrap">
+    <div class="stages__inner">
+      <h2 class="title-2 offer__title">Этапы изготовления</h2>
+      <div class="stages__item">
+        <div class="stages__column">
+          <div class="stages__column--point">
+            <div class="stages__column--number">1</div>
+            <div class="stages__column--article">
+              <div class="title-3 stages__column--title">Заявка и расчет</div>
+              <div class="stages__column--text">Пришлите нам фото для обработки, и&nbsp;наши <br> специалисты свяжутся
+                <br> с Вами.</div>
             </div>
-            <div class="contacts__contacts-pictogram">
-              <div class="contacts__pict pict-telepphone"></div>
-              <p class="contacts__text">+7 (495) 115-38-16 (Москва)</p>
+          </div>
+          <div class="stages__column--point">
+            <div class="stages__column--number">2</div>
+            <div class="stages__column--article">
+              <div class="title-3 stages__column--title">Согласование макета</div>
+              <div class="stages__column--text">Наш дизайнер подготовит макет и&nbsp;отправить вам на согласование.
+              </div>
             </div>
-            <div class="contacts__contacts-pictogram">
-              <div class="contacts__pict pict-telepphone"></div>
-              <p class="contacts__text">+7 (812) 408-08-17 (Санкт-Петербург)</p>
+          </div>
+          <div class="stages__column--point">
+            <div class="stages__column--number">3</div>
+            <div class="stages__column--article">
+              <div class="title-3 stages__column--title">Изготовление</div>
+              <div class="stages__column--text">После согласования макета <br> ваш заказ поступает <br>
+                в&nbsp;производство.</div>
             </div>
-            <div class="contacts__contacts-pictogram">
-              <div class="contacts__pict pict-email"></div>
-              <p class="contacts__text">zakaz@holst-na-zakaz.ru</p>
-            </div>
-            <div class="contacts__contacts-pictogram">
-              <div class="contacts__pict pict-skype"></div>
-              <p class="contacts__text">Holst-na-zakaz.ru</p>
+          </div>
+          <div class="stages__column--point">
+            <div class="stages__column--number">4</div>
+            <div class="stages__column--article">
+              <div class="title-3 stages__column--title">Доставка</div>
+              <div class="stages__column--text">Бесплатная доставка <br> по&nbsp;Москве. А&nbsp;также <br> возможна
+                доставка <br> в&nbsp;любую точку России.</div>
             </div>
           </div>
         </div>
-        <div class="contacts-column">
-          <div class="contacts__worktime">
-            <h4 class="contacts__title">График работы</h4>
-            <p class="contacts__text">ПН-ПТ - c 10:00 до 18:00</p>
+        <div class="stages__item--img"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section__selection wrap">
+    <div class="selection__inner">
+      <h2 class="title-2 selection__title">Почему выбирают нас?</h2>
+      <div class="selection__item">
+        <div class="selection__block">
+          <div class="selection__block--pict">
+            <div class="selection__block--pict-delivery"></div>
           </div>
-          <div class="contacts__requisites">
-            <h4 class="contacts__title">Реквизиты</h4>
-            <a href="#">
-              <p class="contacts__text">Скачать реквизиты</p>
-            </a>
-            <a href="#">
-              <p class="contacts__text"><br /></p>
-            </a>
-            <a href="#">
-              <p class="contacts__text">Политика конфиденциальности</p>
-            </a>
-            <a href="#">
-              <p class="contacts__text">Условия публичной оферты</p>
-            </a>
-            <a href="#">
-              <p class="contacts__text">Узнайте о скидках и акциях</p>
-            </a>
-            <a href="#">
-              <p class="contacts__text">Для сотрудничества</p>
-            </a>
-          </div>
+          <div class="selection__block--text">Срочное изготовления и бесплатная доставка по Москве</div>
         </div>
-        <div class="contacts-column">
-          <div class="contacts__pay">
-            <div class="contacts__title">Принимаем к оплате</div>
-            <div class="contacts__pay-cards">
-              <div class="contacts__pay-card pict-visa"></div>
-              <div class="contacts__pay-card pict-master"></div>
-              <div class="contacts__pay-card pict-mir"></div>
-              <div class="contacts__pay-card pict-yandexmoney"></div>
-            </div>
+        <div class="selection__block">
+          <div class="selection__block--pict">
+            <div class="selection__block--pict-printer"></div>
           </div>
-          <div class="contacts__delivery">
-            <div class="contacts__title">Доставляем по РФ</div>
-            <div class="contacts__delivery-logos">
-              <div class="contacts__delivery pict-cdek"></div>
-              <div class="contacts__delivery pict-ems"></div>
-            </div>
+          <div class="selection__block--text">Самое современное оборудование и технологии</div>
+        </div>
+        <div class="selection__block">
+          <div class="selection__block--pict">
+            <div class="selection__block--pict-wallet"></div>
           </div>
-          <div class="contacts__social">
-            <div class="contacts__title">Подписывайтесь на нас</div>
-            <div class="contacts__social-logos">
-              <div class="contacts__social-logo pict-vk"></div>
-              <div class="contacts__social-logo pict-instagramm"></div>
-              <div class="contacts__social-logo pict-facebook"></div>
-              <div class="contacts__social-logo pict-youtube"></div>
-              <div class="contacts__social-logo pict-twitter"></div>
-              <div class="contacts__social-logo pict-odnoklassniki"></div>
-            </div>
+          <div class="selection__block--text">Мы работаем без предоплаты</div>
+        </div>
+        <div class="selection__block">
+          <div class="selection__block--pict">
+            <div class="selection__block--pict-gift"></div>
+          </div>
+          <div class="selection__block--text">Подарок на выбор каждому клиенту</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer wrap">
+    <div class="footer__inner contacts">
+      <div class="contacts-column">
+        <div class="contacts__contacts">
+          <h4 class="contacts__title">Контакты</h4>
+          <p class="contacts__contacts-adress">
+            Бесплатный звонок по РФ: <br />
+            8 800 302-2532 <br />
+            Адрес: г. Москва <br />
+            МКАД 24 км вл. 3
+          </p>
+          <button class="btn btn__map">Посмотреть на карте</button>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-whatsapp"></div>
+            <p class="contacts__text">+7 968 603-85-98</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-telepphone"></div>
+            <p class="contacts__text">+7 (495) 115-38-16 (Москва)</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-telepphone"></div>
+            <p class="contacts__text">+7 (812) 408-08-17 (Санкт-Петербург)</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-email"></div>
+            <p class="contacts__text">zakaz@holst-na-zakaz.ru</p>
+          </div>
+          <div class="contacts__contacts-pictogram">
+            <div class="contacts__pict pict-skype"></div>
+            <p class="contacts__text">Holst-na-zakaz.ru</p>
           </div>
         </div>
       </div>
-      <p class="footer__author">
-        © Холст на заказ, 2017-2021 | holst-na-zakaz.ru | info@holst-na-zakaz.ru
-      </p>
-    </footer>
-  </body>
+      <div class="contacts-column">
+        <div class="contacts__worktime">
+          <h4 class="contacts__title">График работы</h4>
+          <p class="contacts__text">ПН-ПТ - c 10:00 до 18:00</p>
+        </div>
+        <div class="contacts__requisites">
+          <h4 class="contacts__title">Реквизиты</h4>
+          <a href="#">
+            <p class="contacts__text">Скачать реквизиты</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text"><br /></p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Политика конфиденциальности</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Условия публичной оферты</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Узнайте о скидках и акциях</p>
+          </a>
+          <a href="#">
+            <p class="contacts__text">Для сотрудничества</p>
+          </a>
+        </div>
+      </div>
+      <div class="contacts-column">
+        <div class="contacts__pay">
+          <div class="contacts__title">Принимаем к оплате</div>
+          <div class="contacts__pay-cards">
+            <div class="contacts__pay-card pict-visa"></div>
+            <div class="contacts__pay-card pict-master"></div>
+            <div class="contacts__pay-card pict-mir"></div>
+            <div class="contacts__pay-card pict-yandexmoney"></div>
+          </div>
+        </div>
+        <div class="contacts__delivery">
+          <div class="contacts__title">Доставляем по РФ</div>
+          <div class="contacts__delivery-logos">
+            <div class="contacts__delivery pict-cdek"></div>
+            <div class="contacts__delivery pict-ems"></div>
+          </div>
+        </div>
+        <div class="contacts__social">
+          <div class="contacts__title">Подписывайтесь на нас</div>
+          <div class="contacts__social-logos">
+            <div class="contacts__social-logo pict-vk"></div>
+            <div class="contacts__social-logo pict-instagramm"></div>
+            <div class="contacts__social-logo pict-facebook"></div>
+            <div class="contacts__social-logo pict-youtube"></div>
+            <div class="contacts__social-logo pict-twitter"></div>
+            <div class="contacts__social-logo pict-odnoklassniki"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="footer__author">
+      © Холст на заказ, 2017-2021 | holst-na-zakaz.ru | info@holst-na-zakaz.ru
+    </p>
+  </footer>
+</body>
+
 </html>
