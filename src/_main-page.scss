@@ -1,0 +1,50 @@
+@import "vars";
+
+.section__offer {
+    height: 800px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.offer__title {
+    margin-bottom: 40px;
+}
+
+.offer__subtitle {
+    margin-bottom: 20px;
+}
+
+.offer__text {
+    margin-top: 20px;
+}
+
+.offer__item {
+    width: 1200px;
+    height: 320px;
+    display: flex;
+    margin-bottom: 69px;
+    // justify-content: space-between;
+    &-left--img {
+        width: 483px;
+        height: 319px;
+        border-radius: 10px;
+        background-image: url("assets/images/offer_left_1.jpg");
+        margin-right: 30px;
+    }
+    &-right--img {
+        width: 482px;
+        height: 320px;
+        border-radius: 10px;
+        background-image: url("assets/images/offer_right_1.jpg");
+        margin-left: 30px;
+    }
+    &--text-block {
+        width: 687px;
+        height: 320px;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+}

@@ -60,7 +60,7 @@ button {
 .wrap {
     max-width: 1600px;
     width: 100vw;
-    padding: 0 200px;
+    padding: 0 12.5%;
     // min-width: 257px;
     display: flex;
     justify-content: space-between;
@@ -86,7 +86,6 @@ button {
 
 .section {
     width: 1600px;
-    background-image: url("assets/images/start_bg.jpg");
 }
 
 .btn {
@@ -101,7 +100,10 @@ button {
 }
 
 .section__start {
+    width: 100%;
     height: 828px;
+    background-image: url("assets/images/start_bg.jpg");
+    background-position-x: center;
 }
 
 .btn--start {
@@ -131,6 +133,8 @@ button {
     display: grid;
     position: absolute;
     color: $color_white;
+    right: auto;
+    left: auto;
 
     &__inner {
         display: flex;
@@ -241,7 +245,7 @@ button {
     &__phone {
         position: absolute;
         top: 103px;
-        right: 200px;
+        right: 12.5%;
 
         ::before {
             position: absolute;
@@ -462,151 +466,3 @@ button {
     height: 40px;
     cursor: pointer;
 }
-
-// .footer{
-//     height: 350px;
-//     background-repeat: no-repeat;
-//     background-position: top center;
-//     background-size: cover;
-//     // background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
-
-//     &__inner{
-//         display: flex;
-//         padding-top: 40px;
-//         justify-content: space-between;
-//         z-index: 1;
-//     }
-
-//     &__item{
-//         display: flex;
-//         align-items: center;
-//         width: 740px;
-//         justify-content: space-between;
-
-//     }
-
-//     &__contacts{
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         height: 234px;
-//         margin-top: -50px;
-//     }
-
-//     &__contacts-visit{
-//         h1{
-//             margin-left: 1px;
-//         }
-//     }
-
-//     &__title{
-//         width: 279px;
-//         color: #FFFFFF;
-//         letter-spacing: 0.06em;
-//     }
-
-//     &__contact,
-//     &__adress{
-//         display: flex;
-//         padding-top: 40px;
-//         align-items: center;
-//         margin-bottom: 1px;
-//     }
-
-//     &__adress{
-//         width: 302px;
-//         padding-top: 0px;
-//     }
-
-//     &__text{
-//         width: 273px;
-//         font-family: Georgia;
-//         font-size: 20px;
-//         line-height: 23px;
-//         letter-spacing: 0.06em;
-//         color: #F1CDB3;
-//         padding-left: 20px;
-//         padding-top: 2px;
-//     }
-// }
-
-// .pets{
-
-//     &__card {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: space-between;
-//         width: 270px;
-//         height: 435px;
-//         //padding: 30px 0;
-//         background: #FAFAFA;
-//         border-radius: 9px;
-
-//         &:hover {
-//             background: #FFFFFF;
-//             box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
-//             transition: all 0.3s;
-//         }
-//     }
-
-//     &__card-title {
-//         font-size: 20px;
-//         line-height: 23px;
-//         letter-spacing: -0.02em;
-//     }
-
-//     &__card-button {
-//         width: 187px;
-//         margin-bottom: 30px;
-//     }
-
-//     &__btn-nav{
-//         width: 52px;
-//         height: 52px;
-//         border-radius: 100px;
-//         color: #292929;
-//         p{
-//             @extend %georgia-regular;
-//             font-size: 20px;
-//             line-height: 23px;
-//             text-align: center;
-//             margin-top: -2px;
-//             margin-left: -1px;
-//         }
-//     }
-
-//     &__btn--normal{
-
-//         &:hover {
-//             border: none;
-//             background-color: $color_lightglobal;
-//             transition: all 0.6s;
-//             cursor: pointer;
-//         }
-//     }
-
-//     &__btn--inactive{
-//         border: 2px solid #CDCDCD;
-//         background: none;
-//         color: #CDCDCD;
-
-//     }
-
-//     &__btn--active{
-//         background: #F1CDB3;
-//         border: none;
-
-//         &:hover {
-//             border: none;
-//             background-color: $color_lightglobal;
-//             transition: all 0.6s;
-//             cursor: pointer;
-//         }
-//     }
-
-//     &__btn--normal{
-//         border: 2px solid $color_global;
-//         background: none;
-//     }
-// }
