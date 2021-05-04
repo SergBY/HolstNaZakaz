@@ -108,6 +108,108 @@ button:focus {
   margin: 0 auto;
 }
 
+.pict-whatsapp {
+  background-image: url("assets/images/whatsapp.svg");
+  width: 27px;
+  height: 27px;
+}
+
+.pict-telepphone {
+  background-image: url("assets/images/telephone_menu.svg");
+  width: 27px;
+  height: 27px;
+}
+
+.pict-email {
+  background-image: url("assets/images/mail.svg");
+  width: 29px;
+  height: 27px;
+}
+
+.pict-skype {
+  background-image: url("assets/images/skype.svg");
+  width: 27px;
+  height: 27px;
+}
+
+.pict-visa {
+  background-image: url("assets/images/Visa.svg");
+  width: 51px;
+  height: 33px;
+}
+
+.pict-master {
+  background-image: url("assets/images/MasterCards.svg");
+  width: 56px;
+  height: 34px;
+}
+
+.pict-mir {
+  background-image: url("assets/images/Mir.svg");
+  width: 54px;
+  height: 54px;
+}
+
+.pict-yandexmoney {
+  background-image: url("assets/images/yandex-money.svg");
+  width: 45px;
+  height: 45px;
+}
+
+.pict-cdek {
+  background-image: url("assets/images/CDEK.svg");
+  width: 99px;
+  height: 27px;
+}
+
+.pict-ems {
+  background-image: url("assets/images/EMS.svg");
+  width: 106px;
+  height: 30px;
+}
+
+.pict-vk {
+  background-image: url("assets/images/vk-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-instagramm {
+  background-image: url("assets/images/instagram-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-facebook {
+  background-image: url("assets/images/facebook-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-youtube {
+  background-image: url("assets/images/youtube-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-twitter {
+  background-image: url("assets/images/twitter-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-odnoklassniki {
+  background-image: url("assets/images/odnoklassniki-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
 .section {
   max-width: 1600px;
 }
@@ -428,108 +530,6 @@ button:focus {
   width: 285px;
   height: 40px;
   margin-top: 10px;
-}
-
-.pict-whatsapp {
-  background-image: url("assets/images/whatsapp.svg");
-  width: 27px;
-  height: 27px;
-}
-
-.pict-telepphone {
-  background-image: url("assets/images/telephone_menu.svg");
-  width: 27px;
-  height: 27px;
-}
-
-.pict-email {
-  background-image: url("assets/images/mail.svg");
-  width: 29px;
-  height: 27px;
-}
-
-.pict-skype {
-  background-image: url("assets/images/skype.svg");
-  width: 27px;
-  height: 27px;
-}
-
-.pict-visa {
-  background-image: url("assets/images/Visa.svg");
-  width: 51px;
-  height: 33px;
-}
-
-.pict-master {
-  background-image: url("assets/images/MasterCards.svg");
-  width: 56px;
-  height: 34px;
-}
-
-.pict-mir {
-  background-image: url("assets/images/Mir.svg");
-  width: 54px;
-  height: 54px;
-}
-
-.pict-yandexmoney {
-  background-image: url("assets/images/yandex-money.svg");
-  width: 45px;
-  height: 45px;
-}
-
-.pict-cdek {
-  background-image: url("assets/images/CDEK.svg");
-  width: 99px;
-  height: 27px;
-}
-
-.pict-ems {
-  background-image: url("assets/images/EMS.svg");
-  width: 106px;
-  height: 30px;
-}
-
-.pict-vk {
-  background-image: url("assets/images/vk-social-logotype.svg");
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.pict-instagramm {
-  background-image: url("assets/images/instagram-social-logotype.svg");
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.pict-facebook {
-  background-image: url("assets/images/facebook-social-logotype.svg");
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.pict-youtube {
-  background-image: url("assets/images/youtube-social-logotype.svg");
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.pict-twitter {
-  background-image: url("assets/images/twitter-social-logotype.svg");
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.pict-odnoklassniki {
-  background-image: url("assets/images/odnoklassniki-social-logotype.svg");
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
 }
 
 .title-1 {
@@ -932,6 +932,105 @@ button:focus {
   width: 380px;
   height: 260px;
   line-height: 20px;
+}
+
+.section__questions {
+  margin-top: 55px;
+}
+
+.section__questions .questions__item {
+  margin-top: 42px;
+}
+
+.section__questions input[type="radio"] {
+  display: none;
+}
+
+.section__questions .input-radio-open:not(:checked) ~ .element__header .header__title--open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__questions .input-radio-open:not(:checked) ~ .element__header .header__title--close {
+  display: none;
+}
+
+.section__questions .input-radio-open:not(:checked) ~ .element__content {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.section__questions .input-radio-open:checked ~ .element__header .header__title--open {
+  display: none;
+}
+
+.section__questions .input-radio-open:checked ~ .element__header .header__title--close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__questions .input-radio-open:checked ~ .element__content {
+  height: auto;
+  opacity: 1;
+  overflow: auto;
+}
+
+.section__questions .accordeon {
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.section__questions .accordeon__element {
+  margin-top: 14px;
+}
+
+.section__questions .header__title {
+  width: 990px;
+  padding: 10px 0;
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  -webkit-transition: background-color .25s ease;
+  transition: background-color .25s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__questions .header__title--close {
+  width: 985px;
+}
+
+.section__questions .header__title .mark {
+  color: #F5841B;
+  font-size: 36px;
+  text-align: center;
+}
+
+.section__questions .element__content {
+  padding: 0px;
+  -webkit-transition: height .25s ease, opacity .25s ease, padding 0s ease;
+  transition: height .25s ease, opacity .25s ease, padding 0s ease;
+}
+
+.section__questions .content__wrapper {
+  color: #777;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 1px solid #F5841B;
+}
+
+.section__questions .content__wrapper p {
+  width: 850px;
 }
 
 @font-face {

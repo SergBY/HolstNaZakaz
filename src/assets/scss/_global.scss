@@ -84,6 +84,109 @@ button {
     @extend %main-text;
 }
 
+
+.pict-whatsapp {
+    background-image: url("assets/images/whatsapp.svg");
+    width: 27px;
+    height: 27px;
+}
+
+.pict-telepphone {
+    background-image: url("assets/images/telephone_menu.svg");
+    width: 27px;
+    height: 27px;
+}
+
+.pict-email {
+    background-image: url("assets/images/mail.svg");
+    width: 29px;
+    height: 27px;
+}
+
+.pict-skype {
+    background-image: url("assets/images/skype.svg");
+    width: 27px;
+    height: 27px;
+}
+
+.pict-visa {
+    background-image: url("assets/images/Visa.svg");
+    width: 51px;
+    height: 33px;
+}
+
+.pict-master {
+    background-image: url("assets/images/MasterCards.svg");
+    width: 56px;
+    height: 34px;
+}
+
+.pict-mir {
+    background-image: url("assets/images/Mir.svg");
+    width: 54px;
+    height: 54px;
+}
+
+.pict-yandexmoney {
+    background-image: url("assets/images/yandex-money.svg");
+    width: 45px;
+    height: 45px;
+}
+
+.pict-cdek {
+    background-image: url("assets/images/CDEK.svg");
+    width: 99px;
+    height: 27px;
+}
+
+.pict-ems {
+    background-image: url("assets/images/EMS.svg");
+    width: 106px;
+    height: 30px;
+}
+
+.pict-vk {
+    background-image: url("assets/images/vk-social-logotype.svg");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pict-instagramm {
+    background-image: url("assets/images/instagram-social-logotype.svg");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pict-facebook {
+    background-image: url("assets/images/facebook-social-logotype.svg");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pict-youtube {
+    background-image: url("assets/images/youtube-social-logotype.svg");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pict-twitter {
+    background-image: url("assets/images/twitter-social-logotype.svg");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pict-odnoklassniki {
+    background-image: url("assets/images/odnoklassniki-social-logotype.svg");
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
 .section {
     max-width: 1600px;
 }
@@ -365,106 +468,4 @@ button {
         height: 40px;
         margin-top: 10px;
     }
-}
-
-.pict-whatsapp {
-    background-image: url("assets/images/whatsapp.svg");
-    width: 27px;
-    height: 27px;
-}
-
-.pict-telepphone {
-    background-image: url("assets/images/telephone_menu.svg");
-    width: 27px;
-    height: 27px;
-}
-
-.pict-email {
-    background-image: url("assets/images/mail.svg");
-    width: 29px;
-    height: 27px;
-}
-
-.pict-skype {
-    background-image: url("assets/images/skype.svg");
-    width: 27px;
-    height: 27px;
-}
-
-.pict-visa {
-    background-image: url("assets/images/Visa.svg");
-    width: 51px;
-    height: 33px;
-}
-
-.pict-master {
-    background-image: url("assets/images/MasterCards.svg");
-    width: 56px;
-    height: 34px;
-}
-
-.pict-mir {
-    background-image: url("assets/images/Mir.svg");
-    width: 54px;
-    height: 54px;
-}
-
-.pict-yandexmoney {
-    background-image: url("assets/images/yandex-money.svg");
-    width: 45px;
-    height: 45px;
-}
-
-.pict-cdek {
-    background-image: url("assets/images/CDEK.svg");
-    width: 99px;
-    height: 27px;
-}
-
-.pict-ems {
-    background-image: url("assets/images/EMS.svg");
-    width: 106px;
-    height: 30px;
-}
-
-.pict-vk {
-    background-image: url("assets/images/vk-social-logotype.svg");
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.pict-instagramm {
-    background-image: url("assets/images/instagram-social-logotype.svg");
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.pict-facebook {
-    background-image: url("assets/images/facebook-social-logotype.svg");
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.pict-youtube {
-    background-image: url("assets/images/youtube-social-logotype.svg");
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.pict-twitter {
-    background-image: url("assets/images/twitter-social-logotype.svg");
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.pict-odnoklassniki {
-    background-image: url("assets/images/odnoklassniki-social-logotype.svg");
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
 }
