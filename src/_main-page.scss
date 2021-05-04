@@ -193,3 +193,75 @@
         margin-top: 11px;
     }
 }
+
+.section__reviews {
+    height: 600px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn--reviews {
+    width: 287px;
+    height: 54px;
+    color: $color_lightOrange;
+    background: none;
+    border: 1px solid $color_lightOrange;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24.61px;
+}
+
+.reviews {
+    &__item {
+        height: 442px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__cards {
+        display: flex;
+        width: 1200px;
+        justify-content: space-between;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: space-evenly;
+        width: 585px;
+        height: 351px;
+        margin: 36px 0;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    &__card--avatar {
+        width: 103px;
+        height: 103px;
+        background: #C4C4C4;
+        border-radius: 50%;
+        margin-top: 35px;
+    }
+
+    &__card--item {
+        margin-top: 35px;
+    }
+
+    &__card-name {
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 24.42px;
+        color: $color_lightOrange;
+        padding-bottom: 12px;
+    }
+
+    &__card--text {
+        width: 380px;
+        height: 260px;
+        line-height: 20px;
+    }
+}
