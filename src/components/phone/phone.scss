@@ -1,0 +1,21 @@
+.phone {
+  margin-top: 10px;
+}
+
+.header__phone {
+
+  ::before {
+      position: absolute;
+      content: "";
+      background-image: url("../../assets/images/telephone_menu.svg");
+      width: 27px;
+      height: 27px;
+      margin-left: -35px;
+      margin-top: -7px;
+  }
+
+  &-text {
+      font-size: 18px;
+      line-height: 19px;
+  }
+}

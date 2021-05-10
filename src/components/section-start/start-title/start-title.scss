@@ -1,0 +1,18 @@
+@import '../../../assets/scss/vars';
+
+.start__title {
+  color: $color_white;
+  width: 594px;
+  margin-bottom: 3px;
+  font-size: 45px;
+  letter-spacing: -0.02em;
+}
+
+.start__text {
+  color: $color_white;
+  width: 537px;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 27px;
+  margin-top: 12px;
+}

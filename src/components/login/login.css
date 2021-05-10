@@ -1,0 +1,25 @@
+.menu__login {
+  width: 75px;
+  text-align: center;
+}
+
+.menu__login-btn {
+  width: 75px;
+  height: 30px;
+  border-radius: 43px;
+  border: 3px solid #F5841B;
+  font-weight: 700;
+  color: #F5841B;
+  background: none;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.menu__login .menu__registration {
+  font-size: 10px;
+}
+
+.menu__login .menu__registration:hover {
+  border-bottom: 1px solid #F5841B;
+}
+/*# sourceMappingURL=login.css.map */
