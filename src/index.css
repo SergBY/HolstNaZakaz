@@ -26,7 +26,7 @@
   line-height: 23px;
 }
 
-.btn, .selection__block--pict {
+.selection__block--pict {
   background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
 }
 
@@ -214,18 +214,6 @@ button:focus {
   max-width: 1600px;
 }
 
-.btn {
-  width: 290px;
-  height: 60px;
-  border-radius: 63px;
-  border: none;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  color: #FFF;
-  cursor: pointer;
-}
-
 .footer {
   height: 625px;
   color: #FFF;
@@ -382,7 +370,7 @@ button:focus {
   line-height: 23px;
 }
 
-.btn, .selection__block--pict {
+.selection__block--pict {
   background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
 }
 
@@ -418,7 +406,7 @@ button:focus {
   line-height: 23px;
 }
 
-.btn, .selection__block--pict {
+.selection__block--pict {
   background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
 }
 

@@ -1,6 +1,6 @@
 import './section-start.css';
-import StartButton from './start-button/StartButton';
-import StartTitle from './start-title/StartTitle';
+import Button from '../button/Button';
+import StartTitle from '../title/Title';
 
 function SectionStart() {
   return (
@@ -8,10 +8,10 @@ function SectionStart() {
       <div className="start__inner">
         <div className="start__item">
           <div className="start__text-block">
-            <StartTitle title="Печать на холсте по фото со скидкой -25%"/>
-            <StartTitle description="Изготовление заказа от 30 минут и бесплатная доставка по Москве"/>
+            <StartTitle titleSize="title-1" title="Печать на холсте по фото со скидкой -25%"/>
+            <StartTitle titleSize="start__text" title="Изготовление заказа от 30 минут и бесплатная доставка по Москве"/>
           </div>
-          <StartButton title="Рассчитать стоимость"/>
+          <Button btnSize="big" title="Рассчитать стоимость"/>
         </div>
       </div>
     </section>

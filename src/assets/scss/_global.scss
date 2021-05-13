@@ -191,19 +191,6 @@ button {
     max-width: 1600px;
 }
 
-.btn {
-    width: 290px;
-    height: 60px;
-    border-radius: 63px;
-    border: none;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    color: $color_white;
-    @extend %gradient;
-    cursor: pointer;
-}
-
 .footer {
     height: 625px;
     color: $color_white;

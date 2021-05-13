@@ -2,9 +2,9 @@ import './logo.css';
 
 function Logo(props) {
   return (
-  <div className="logo">
+  <h1 className="logo">
     <a href="#" className="header__logo">{props.logo}</a>
-  </div>
+  </h1>
   )
 }
 

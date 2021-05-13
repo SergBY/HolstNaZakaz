@@ -44,4 +44,4 @@ export const Navigation = [
     name: 'Контакты',
     path: '#'
   }
-]
+];

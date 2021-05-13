@@ -1,0 +1,26 @@
+.btn {
+  background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
+}
+
+.btn {
+  border-radius: 63px;
+  border: none;
+  font-weight: 700;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.btn--big {
+  width: 346px;
+  height: 74px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.btn--medium {
+  width: 290px;
+  height: 60px;
+  font-size: 22px;
+  line-height: 26px;
+}
+/*# sourceMappingURL=button.css.map */
