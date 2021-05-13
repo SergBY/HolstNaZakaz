@@ -1,10 +1,10 @@
 import './phone.css';
 
-function Phone() {
+function Phone(props) {
   return (
-  <div class="phone">
-    <a class="header__phone" href="tel:+7495115-38-16">
-      <p class="header__phone-text">+7 (495) 115-38-16</p>
+  <div className="phone">
+    <a className="header__phone" href={`tel:${props.mainPhone}`}>
+      <p className="header__phone-text">{props.mainPhone}</p>
     </a>
   </div>
   )

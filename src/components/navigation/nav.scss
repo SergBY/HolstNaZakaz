@@ -60,7 +60,8 @@
       width: 115px;
 
       :hover {
-          color: $color_lightOrange
+          color: $color_lightOrange;
+          transition: all 0.3s;
       }
   }
 }

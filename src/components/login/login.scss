@@ -8,16 +8,25 @@
       width: 75px;
       height: 30px;
       border-radius: 43px;
-      border: 3px solid $color_lightOrange;
+      border: 1px solid $color_lightOrange;
       font-weight: 700;
       color: $color_lightOrange;
       background: none;
       margin-top: -6px;
       cursor: pointer;
+
+      &:hover {
+          background-color: $color_lightOrange;
+          color: $color_white;
+      }
   }
 
-  .menu__registration {
+  .menu__registration-btn {
       font-size: 10px;
+      border: none;
+      background: none;
+      color: $color_white;
+      cursor: pointer;
 
       &:hover {
           border-bottom: 1px solid $color_lightOrange;

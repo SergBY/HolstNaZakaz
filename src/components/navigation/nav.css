@@ -69,5 +69,7 @@
 
 .menu .menu__dropdown:hover > ul :hover {
   color: #F5841B;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 /*# sourceMappingURL=nav.css.map */

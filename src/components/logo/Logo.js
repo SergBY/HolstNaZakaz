@@ -1,9 +1,9 @@
 import './logo.css';
 
-function Logo() {
+function Logo(props) {
   return (
-  <div class="logo">
-    <a href="#" class="header__logo">HOLST-NA-ZAKAZ</a>
+  <div className="logo">
+    <a href="#" className="header__logo">{props.logo}</a>
   </div>
   )
 }

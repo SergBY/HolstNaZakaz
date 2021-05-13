@@ -1,5 +1,13 @@
 .phone {
   margin-top: 10px;
+  position: absolute;
+  top: 95px;
+  right: 12.5%;
+  display: flex;
+  justify-content: flex-end;
+  width: 75vw;
+  max-width: 1200px;
+  min-width: 850px;
 }
 
 .header__phone {

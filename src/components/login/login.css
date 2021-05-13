@@ -7,7 +7,7 @@
   width: 75px;
   height: 30px;
   border-radius: 43px;
-  border: 3px solid #F5841B;
+  border: 1px solid #F5841B;
   font-weight: 700;
   color: #F5841B;
   background: none;
@@ -15,11 +15,20 @@
   cursor: pointer;
 }
 
-.menu__login .menu__registration {
-  font-size: 10px;
+.menu__login-btn:hover {
+  background-color: #F5841B;
+  color: #FFF;
 }
 
-.menu__login .menu__registration:hover {
+.menu__login .menu__registration-btn {
+  font-size: 10px;
+  border: none;
+  background: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.menu__login .menu__registration-btn:hover {
   border-bottom: 1px solid #F5841B;
 }
 /*# sourceMappingURL=login.css.map */

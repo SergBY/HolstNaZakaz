@@ -1,16 +1,17 @@
 import './header.css';
 import Logo from '../logo/Logo';
-import Nav from '../navigation/nav';
+import Nav from '../navigation/Nav';
 import Phone from '../phone/Phone';
+import { MainLogo, Navigation, MainPhone } from '../constants';
 
 function Header() {
   return (
-      <header class="header wrap">
-        <div class="header__inner">
-          <Logo/>
-          <Nav/>
+      <header className="header wrap">
+        <div className="header__inner">
+          <Logo logo={MainLogo}/>
+          <Phone mainPhone={MainPhone}/>
+          <Nav nav={Navigation}/>
         </div>
-        <Phone/>
       </header>
   );
 }
