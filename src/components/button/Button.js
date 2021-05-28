@@ -1,4 +1,9 @@
 import './button.css';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  btnSize: PropTypes.oneOf(['big', 'medium', 'small']).isRequired
+};
 
 function Button(props) {
   let btnClass = '';
@@ -18,5 +23,7 @@ function Button(props) {
     </a>
   )
 }
+
+Button.propTypes = propTypes;
 
 export default Button;

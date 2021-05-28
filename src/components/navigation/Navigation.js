@@ -1,6 +1,10 @@
 import './nav.css';
 import Login from '../login/Login';
-import { Navigation } from '../constants';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  nav: PropTypes.array.isRequired
+};
 
 function Nav(props) {
   return(
@@ -33,5 +37,7 @@ function Nav(props) {
           </nav>
   );
 }
+
+Nav.propTypes = propTypes;
 
 export default Nav;

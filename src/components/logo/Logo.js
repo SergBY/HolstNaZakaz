@@ -1,4 +1,9 @@
 import './logo.css';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  logo: PropTypes.string.isRequired
+};
 
 function Logo(props) {
   return (
@@ -7,5 +12,7 @@ function Logo(props) {
   </h1>
   )
 }
+
+Logo.propTypes = propTypes;
 
 export default Logo;
