@@ -17,6 +17,7 @@
   font-weight: 700;
   font-size: 23px;
   line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .main-text {
@@ -361,6 +362,7 @@ button:focus {
   font-weight: 700;
   font-size: 23px;
   line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .main-text {
@@ -397,6 +399,7 @@ button:focus {
   font-weight: 700;
   font-size: 23px;
   line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .main-text {
@@ -449,6 +452,17 @@ button:focus {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 69px;
+  margin-top: 40px;
+}
+
+.offer__item-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .offer__item-left--img {
@@ -573,9 +587,22 @@ button:focus {
   width: 100%;
 }
 
+.selection__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .selection__item {
   max-width: 1200px;
-  min-width: 820px;
+  min-width: 950px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,6 +613,7 @@ button:focus {
 
 .selection__title {
   margin-bottom: 36px;
+  width: 1200px;
 }
 
 .selection__block {
@@ -746,10 +774,34 @@ button:focus {
 
 .section__questions {
   margin-top: 55px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__questions .questions__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .section__questions .questions__item {
   margin-top: 42px;
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__questions .questions__title {
+  width: 1200px;
 }
 
 .section__questions input[type="radio"] {

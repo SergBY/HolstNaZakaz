@@ -5,7 +5,7 @@ const propTypes = {
   titleSize: PropTypes.oneOf(['title-1', 'start__text', 'title-2', 'title-3']).isRequired
 };
 
-function StartTitle(props) {
+function Title(props) {
   let titleClass = '';
 
   if (props.titleSize === 'title-1') {
@@ -24,12 +24,12 @@ function StartTitle(props) {
   }
 
   return (
-    <div>
+    <>
       <h2 className={titleClass}>{props.title}</h2>
-    </div>
+    </>
   )
 }
 
-StartTitle.propTypes = propTypes;
+Title.propTypes = propTypes;
 
-export default StartTitle;
+export default Title;
