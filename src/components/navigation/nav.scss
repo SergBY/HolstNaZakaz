@@ -1,0 +1,67 @@
+@import '../../assets/scss/vars';
+
+.menu {
+  width: 563px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 5px;
+
+  &__list {
+      width: 460px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      a:hover {
+          // padding-bottom: 3px;
+          // border-bottom: 3px solid $color_lightOrange;
+          transition: all 0.3s;
+          color: $color_lightOrange;
+      }
+  }
+
+  .dropdown {
+      position: absolute;
+      top: 10px;
+      display: none;
+      font-size: 14px;
+      line-height: 20px;
+      width: 133px;
+
+      // a:hover {
+      //     padding-bottom: 3px;
+      //     border-bottom: none;
+      //     transition: all 0.3s;
+      //     line-height: 32px;
+      // }
+  }
+
+  .menu__dropdown-arr {
+      display: flex;
+      width: 147px;
+      justify-content: space-between;
+  }
+
+  .arr {
+      background-image: url("../../assets/images/Arr1.svg");
+      width: 12px;
+      height: 7px;
+      margin-left: 4px;
+      margin-top: 6px;
+  }
+
+  .menu__dropdown:hover>ul {
+      display: block;
+      position: relative;
+      background: none;
+      width: 115px;
+
+      :hover {
+          color: $color_lightOrange;
+          transition: all 0.3s;
+      }
+  }
+}

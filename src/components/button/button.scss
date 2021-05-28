@@ -1,0 +1,24 @@
+@import '../../assets/scss/vars';
+
+.btn {
+  border-radius: 63px;
+  border: none;
+  font-weight: 700;
+  color: $color_white;
+  @extend %gradient;
+  cursor: pointer;
+}
+
+.btn--big {
+  width: 346px;
+  height: 74px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.btn--medium {
+  width: 290px;
+  height: 60px;
+  font-size: 22px;
+  line-height: 26px;
+}

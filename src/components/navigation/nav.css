@@ -1,0 +1,75 @@
+.menu {
+  width: 563px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
+.menu__list {
+  width: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__list a:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #F5841B;
+}
+
+.menu .dropdown {
+  position: absolute;
+  top: 10px;
+  display: none;
+  font-size: 14px;
+  line-height: 20px;
+  width: 133px;
+}
+
+.menu .menu__dropdown-arr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 147px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu .arr {
+  background-image: url("../../assets/images/Arr1.svg");
+  width: 12px;
+  height: 7px;
+  margin-left: 4px;
+  margin-top: 6px;
+}
+
+.menu .menu__dropdown:hover > ul {
+  display: block;
+  position: relative;
+  background: none;
+  width: 115px;
+}
+
+.menu .menu__dropdown:hover > ul :hover {
+  color: #F5841B;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*# sourceMappingURL=nav.css.map */

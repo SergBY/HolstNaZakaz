@@ -1,0 +1,19 @@
+@import "../../assets/scss/vars";
+
+.header {
+  display: grid;
+  position: absolute;
+  color: $color_white;
+  right: auto;
+  left: auto;
+  justify-items: end;
+
+  &__inner {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 49px;
+      width: 75vw;
+      max-width: 1200px;
+      min-width: 850px;
+  }
+}
