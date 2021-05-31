@@ -1,0 +1,109 @@
+.selection__block--pict {
+  background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
+}
+
+.section__selection {
+  height: 266px;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.selection__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.selection__item {
+  max-width: 1200px;
+  min-width: 950px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 75vw;
+}
+
+.selection__title {
+  margin-bottom: 36px;
+  width: 1200px;
+}
+
+.selection__block {
+  width: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.selection__block--pict {
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.selection__block--pict-delivery {
+  width: 89px;
+  height: 89px;
+  background-image: url("../../../../assets/images/fast-delivery.svg");
+}
+
+.selection__block--pict-printer {
+  width: 71px;
+  height: 71px;
+  background-image: url("../../../../assets/images/printer.svg");
+}
+
+.selection__block--pict-wallet {
+  width: 63px;
+  height: 63px;
+  background-image: url("../../../../assets/images/wallet.svg");
+}
+
+.selection__block--pict-gift {
+  width: 65px;
+  height: 65px;
+  background-image: url("../../../../assets/images/gift.svg");
+}
+
+.selection__block--text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 11px;
+}
+/*# sourceMappingURL=SectionSelection.css.map */

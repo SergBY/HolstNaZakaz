@@ -1,3 +1,15 @@
+.section__stages {
+  height: 615px;
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
 .stages__item {
   width: 1200px;
   display: -webkit-box;
