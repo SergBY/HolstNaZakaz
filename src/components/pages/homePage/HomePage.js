@@ -3,6 +3,7 @@ import SectionStart from '../../sectionStart/SectionStart';
 import SectionOffer from './sectionOffer/SectionOffer';
 import SectionStages from './sectionStages/SectionStages';
 import SectionSelection from './sectionSelection/SectionSelection';
+import SectionReviews from './sectionReviews/SectionReviews';
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <SectionOffer/>
       <SectionStages/>
       <SectionSelection/>
+      <SectionReviews/>
     </>
   );
 }
