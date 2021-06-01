@@ -4,11 +4,11 @@ function ReviewCard(props) {
       {props.card.map(link => {
         return (
           <>
-            <div class="reviews__card">
-              <div class="reviews__card--avatar">{link.avatar}</div>
-              <div class="reviews__card--item">
-                <div class="reviews__card-name">{link.name}</div>
-                <p class="reviews__card--text">{link.text}</p>
+            <div className="reviews__card">
+              <div className="reviews__card--avatar">{link.avatar}</div>
+              <div className="reviews__card--item">
+                <div className="reviews__card-name">{link.name}</div>
+                <p className="reviews__card--text">{link.text}</p>
               </div>
             </div>
           </>

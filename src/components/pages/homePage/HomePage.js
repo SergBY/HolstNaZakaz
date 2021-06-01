@@ -4,6 +4,7 @@ import SectionOffer from './sectionOffer/SectionOffer';
 import SectionStages from './sectionStages/SectionStages';
 import SectionSelection from './sectionSelection/SectionSelection';
 import SectionReviews from './sectionReviews/SectionReviews';
+import SectionQuestions from './sectionQuestions/SectionQuestions';
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
       <SectionStages/>
       <SectionSelection/>
       <SectionReviews/>
+      <SectionQuestions/>
     </>
   );
 }

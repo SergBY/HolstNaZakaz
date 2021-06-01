@@ -6,14 +6,14 @@ import { Reviews } from '../../../constants';
 
 function SectionReviews() {
   return(
-    <section class="section section__reviews wrap">
-      <div class="reviews__inner">
+    <section className="section section__reviews wrap">
+      <div className="reviews__inner">
         <Title titleSize="title-2" title="Отзывы наших клиентов"/>
-        <div class="reviews__item">
-          <div class="reviews__cards">
+        <div className="reviews__item">
+          <div className="reviews__cards">
             <ReviewCard card={Reviews}/>
           </div>
-          <Button btnSize="medium" title="Узнать больше"/>
+          <Button btnSize="medium" title="Читать все отзывы"/>
         </div>
       </div>
     </section>

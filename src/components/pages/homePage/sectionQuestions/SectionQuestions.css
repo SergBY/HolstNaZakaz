@@ -1,0 +1,61 @@
+.section__questions h2 {
+  width: 1200px;
+  margin-bottom: 34px;
+  margin-top: 56px;
+}
+
+.accordion {
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+
+.accordion-title {
+  width: 990px;
+  padding: 17px 0;
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  -webkit-transition: background-color .25s ease;
+  transition: background-color .25s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.accordion-content {
+  width: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 42px;
+  -webkit-transition: height .25s ease, opacity .25s ease, padding 0s ease;
+  transition: height .25s ease, opacity .25s ease, padding 0s ease;
+  color: #777;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 1px solid #F5841B;
+}
+
+.simb {
+  color: #F5841B;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  .accordion {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=SectionQuestions.css.map */
