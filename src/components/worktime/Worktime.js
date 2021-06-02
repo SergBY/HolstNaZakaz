@@ -1,6 +1,6 @@
 import Title from '../title/Title';
 
-import { WorkTime } from '../constants';
+import { WorkTime } from '../../constants';
 
 function Worktime() {
   return(

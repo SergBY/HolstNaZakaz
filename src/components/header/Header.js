@@ -2,7 +2,7 @@ import './header.css';
 import Logo from '../logo/Logo';
 import Nav from '../navigation/Navigation';
 import Phone from '../phone/Phone';
-import { MainLogo, Navigation, MainPhone } from '../constants';
+import { MainLogo, Navigation, MainPhone } from '../../constants';
 
 function Header() {
   return (

@@ -1,5 +1,5 @@
 import './Contact.css';
-import {Whatsapp, PhoneMoscow, PhoneSPB, Email, Skype } from '../constants';
+import {Whatsapp, PhoneMoscow, PhoneSPB, Email, Skype } from '../../constants';
 
 function Contacts2() {
   return(

@@ -21,9 +21,7 @@ function Button(props) {
     btnClass = 'btn btn__map';
   }
   return (
-    <a href="#">
       <button className={btnClass}>{props.title}</button>
-    </a>
   )
 }
 

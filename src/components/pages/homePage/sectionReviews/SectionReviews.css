@@ -1,6 +1,6 @@
 .section__reviews {
   height: 600px;
-  margin-top: 22px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +25,7 @@
 }
 
 .reviews__item {
-  height: 442px;
+  height: 483px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

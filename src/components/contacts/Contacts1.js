@@ -1,7 +1,7 @@
 import './Contact.css';
 import Title from '../title/Title';
 import Button from '../button/Button';
-import {PhoneRF, Adress } from '../constants';
+import {PhoneRF, Adress } from '../../constants';
 
 function Contacts1() {
   return(

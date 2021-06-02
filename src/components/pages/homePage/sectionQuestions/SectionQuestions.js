@@ -1,7 +1,7 @@
 import './SectionQuestions.css';
 import Title from '../../../title/Title';
 import Accordion from './Accordion';
-import { Question } from '../../../constants';
+import { Question } from '../../../../constants';
  
 const SectionQuestions = () => {
   return (

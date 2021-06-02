@@ -28,9 +28,7 @@ function Title(props) {
   }
 
   return (
-    <>
-      <h2 className={titleClass}>{props.title}</h2>
-    </>
+    <h2 className={titleClass}>{props.title}</h2>
   )
 }
 

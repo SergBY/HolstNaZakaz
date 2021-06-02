@@ -2,7 +2,7 @@ import './SectionReviews.css';
 import Title from '../../../title/Title';
 import Button from '../../../button/Button';
 import ReviewCard from './ReviewCard';
-import { Reviews } from '../../../constants';
+import { Reviews } from '../../../../constants';
 
 function SectionReviews() {
   return(
