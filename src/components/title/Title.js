@@ -2,7 +2,7 @@ import './title.css';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  titleSize: PropTypes.oneOf(['title-1', 'start__text', 'title-2', 'title-3']).isRequired
+  titleSize: PropTypes.oneOf(['title-1', 'start__text', 'title-2', 'title-3', 'contacts']).isRequired
 };
 
 function Title(props) {
@@ -21,6 +21,10 @@ function Title(props) {
 
   if (props.titleSize === 'title-3') {
     titleClass = 'title-3';
+  }
+
+  if (props.titleSize === 'contacts') {
+    titleClass = 'contacts__title';
   }
 
   return (

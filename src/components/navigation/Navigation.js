@@ -1,4 +1,4 @@
-import './nav.css';
+import './Navigation.css';
 import Login from '../login/Login';
 import PropTypes from 'prop-types';
 
@@ -15,7 +15,7 @@ function Nav(props) {
                   return (
                     <li className="menu__list-item menu__dropdown">
                       <div className="menu__dropdown-arr">
-                        <a className="menu__list-link" href="{link.path}">{link.name}</a>
+                        <a className="menu__list-link" href={link.path}>{link.name} &#8744;</a>
                         <div className="arr"></div>
                       </div>
                       <ul className="dropdown">
@@ -28,7 +28,7 @@ function Nav(props) {
                 }
                 return (
                   <li className="menu__list-item">
-                    <a className="menu__list-link" href="{link.path}">{link.name}</a>
+                    <a className="menu__list-link" href={link.path}>{link.name}</a>
                   </li>
                 )
               })}

@@ -5,7 +5,7 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  font-size: 13.4px;
+  font-size: 14px;
   line-height: 16px;
   margin-top: 5px;
 
@@ -16,8 +16,6 @@
       justify-content: space-between;
 
       a:hover {
-          // padding-bottom: 3px;
-          // border-bottom: 3px solid $color_lightOrange;
           transition: all 0.3s;
           color: $color_lightOrange;
       }
@@ -30,27 +28,12 @@
       font-size: 14px;
       line-height: 20px;
       width: 133px;
-
-      // a:hover {
-      //     padding-bottom: 3px;
-      //     border-bottom: none;
-      //     transition: all 0.3s;
-      //     line-height: 32px;
-      // }
   }
 
   .menu__dropdown-arr {
       display: flex;
       width: 147px;
       justify-content: space-between;
-  }
-
-  .arr {
-      background-image: url("../../assets/images/Arr1.svg");
-      width: 12px;
-      height: 7px;
-      margin-left: 4px;
-      margin-top: 6px;
   }
 
   .menu__dropdown:hover>ul {

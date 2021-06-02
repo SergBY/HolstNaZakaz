@@ -1,6 +1,15 @@
 export const MainLogo = 'HOLST-NA-ZAKAZ';
 export const MainPhone = '+7 (495) 115-38-16';
 
+export const PhoneRF = '8 800 302-2532';
+export const Adress = 'г. Москва МКАД 24 км вл. 3';
+export const Whatsapp = '+7 968 603-85-98';
+export const PhoneMoscow = '+7 (495) 115-38-16 (Москва)';
+export const PhoneSPB = '+7 (812) 408-08-17 (Санкт-Петербург)';
+export const Email = 'zakaz@holst-na-zakaz.ru';
+export const Skype = 'Holst-na-zakaz.ru';
+export const WorkTime = 'ПН-ПТ - c 10:00 до 18:00';
+
 export const Navigation = [
   {
     name: 'Главная',

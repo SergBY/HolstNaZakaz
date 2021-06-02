@@ -9,7 +9,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-size: 13.4px;
+  font-size: 14px;
   line-height: 16px;
   margin-top: 5px;
 }
@@ -52,14 +52,6 @@
           justify-content: space-between;
 }
 
-.menu .arr {
-  background-image: url("../../assets/images/Arr1.svg");
-  width: 12px;
-  height: 7px;
-  margin-left: 4px;
-  margin-top: 6px;
-}
-
 .menu .menu__dropdown:hover > ul {
   display: block;
   position: relative;
@@ -72,4 +64,4 @@
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/*# sourceMappingURL=nav.css.map */
+/*# sourceMappingURL=Navigation.css.map */

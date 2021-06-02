@@ -1,0 +1,98 @@
+.footer {
+  background: linear-gradient(294.48deg, #EF780A 71.28%, #FFA722 101.62%);
+}
+
+.footer {
+  height: 625px;
+  color: #FFF;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.footer__inner {
+  width: 1200px;
+  height: 422px;
+  margin-top: 64px;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 70px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.contacts__requisites {
+  margin-top: 67px;
+}
+
+.contacts__pay-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 262px;
+  height: 51px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.contacts__delivery-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 230px;
+  height: 30px;
+  margin-bottom: 73px;
+  margin-top: 10px;
+}
+
+.pict-visa {
+  background-image: url("../../assets/images/Visa.svg");
+  width: 51px;
+  height: 33px;
+}
+
+.pict-master {
+  background-image: url("../../assets/images/MasterCards.svg");
+  width: 56px;
+  height: 34px;
+}
+
+.pict-mir {
+  background-image: url("../../assets/images/Mir.svg");
+  width: 54px;
+  height: 54px;
+}
+
+.pict-yandexmoney {
+  background-image: url("../../assets/images/yandex-money.svg");
+  width: 45px;
+  height: 45px;
+}
+
+.pict-cdek {
+  background-image: url("../../assets/images/CDEK.svg");
+  width: 99px;
+  height: 27px;
+}
+
+.pict-ems {
+  background-image: url("../../assets/images/EMS.svg");
+  width: 106px;
+  height: 30px;
+}
+/*# sourceMappingURL=Footer.css.map */

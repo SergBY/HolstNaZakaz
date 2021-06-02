@@ -2,7 +2,7 @@ import './button.css';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  btnSize: PropTypes.oneOf(['big', 'medium', 'small']).isRequired
+  btnSize: PropTypes.oneOf(['big', 'medium', 'small', 'map']).isRequired
 };
 
 function Button(props) {
@@ -16,6 +16,9 @@ function Button(props) {
   }
   if (props.btnSize === 'small') {
     btnClass = 'btn btn--small';
+  }
+  if (props.btnSize === 'map') {
+    btnClass = 'btn btn__map';
   }
   return (
     <a href="#">
