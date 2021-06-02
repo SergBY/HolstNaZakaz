@@ -11,7 +11,9 @@ function SectionReviews() {
         <Title titleSize="title-2" title="Отзывы наших клиентов"/>
         <div className="reviews__item">
           <div className="reviews__cards">
-            <ReviewCard card={Reviews}/>
+            {Reviews.map(link => (
+              <ReviewCard avatar={link.avatar} name={link.name} text={link.text}/>
+            ))}
           </div>
           <Button btnSize="medium" title="Читать все отзывы"/>
         </div>
