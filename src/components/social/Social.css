@@ -1,0 +1,57 @@
+.contacts__social-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 285px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.pict-vk {
+  background-image: url("../../assets/images/vk-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-instagramm {
+  background-image: url("../../assets/images/instagram-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-facebook {
+  background-image: url("../../assets/images/facebook-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-youtube {
+  background-image: url("../../assets/images/youtube-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-twitter {
+  background-image: url("../../assets/images/twitter-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.pict-odnoklassniki {
+  background-image: url("../../assets/images/odnoklassniki-social-logotype.svg");
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Social.css.map */

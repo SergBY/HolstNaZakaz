@@ -1,6 +1,11 @@
 import './title.css';
+import PropTypes from 'prop-types';
 
-function StartTitle(props) {
+const propTypes = {
+  titleSize: PropTypes.oneOf(['title-1', 'start__text', 'title-2', 'title-3', 'contacts']).isRequired
+};
+
+function Title(props) {
   let titleClass = '';
 
   if (props.titleSize === 'title-1') {
@@ -18,11 +23,15 @@ function StartTitle(props) {
     titleClass = 'title-3';
   }
 
+  if (props.titleSize === 'contacts') {
+    titleClass = 'contacts__title';
+  }
+
   return (
-    <div>
-      <h2 className={titleClass}>{props.title}</h2>
-    </div>
+    <h2 className={titleClass}>{props.title}</h2>
   )
 }
 
-export default StartTitle;
+Title.propTypes = propTypes;
+
+export default Title;

@@ -1,0 +1,92 @@
+.section__reviews {
+  height: 600px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.btn--reviews {
+  width: 287px;
+  height: 54px;
+  color: #F5841B;
+  background: none;
+  border: 1px solid #F5841B;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24.61px;
+}
+
+.reviews__item {
+  height: 483px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reviews__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 585px;
+  height: 351px;
+  margin: 36px 0;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.reviews__card--avatar {
+  width: 103px;
+  height: 103px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  margin-top: 35px;
+}
+
+.reviews__card--item {
+  margin-top: 35px;
+}
+
+.reviews__card-name {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 24.42px;
+  color: #F5841B;
+  padding-bottom: 12px;
+}
+
+.reviews__card--text {
+  width: 380px;
+  height: 260px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=SectionReviews.css.map */

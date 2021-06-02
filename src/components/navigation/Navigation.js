@@ -1,6 +1,10 @@
-import './nav.css';
+import './Navigation.css';
 import Login from '../login/Login';
-import { Navigation } from '../constants';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  nav: PropTypes.array.isRequired
+};
 
 function Nav(props) {
   return(
@@ -11,7 +15,7 @@ function Nav(props) {
                   return (
                     <li className="menu__list-item menu__dropdown">
                       <div className="menu__dropdown-arr">
-                        <a className="menu__list-link" href="{link.path}">{link.name}</a>
+                        <a className="menu__list-link" href={link.path}>{link.name} &#8744;</a>
                         <div className="arr"></div>
                       </div>
                       <ul className="dropdown">
@@ -24,7 +28,7 @@ function Nav(props) {
                 }
                 return (
                   <li className="menu__list-item">
-                    <a className="menu__list-link" href="{link.path}">{link.name}</a>
+                    <a className="menu__list-link" href={link.path}>{link.name}</a>
                   </li>
                 )
               })}
@@ -33,5 +37,7 @@ function Nav(props) {
           </nav>
   );
 }
+
+Nav.propTypes = propTypes;
 
 export default Nav;

@@ -1,0 +1,64 @@
+@import "../../../../assets/scss/vars";
+
+.section__stages {
+    height: 615px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.stages {
+  &__item {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+  }
+
+  &__column {
+      width: 316px;
+      height: 546px;
+      width: 316px;
+      height: 546px;
+  }
+
+  &__column--point {
+      display: flex;
+      align-items: start;
+  }
+
+  &__column--number {
+      width: 27px;
+      height: 27px;
+      border-radius: 50%;
+      background: #F5841B;
+      color: $color_white;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 31px;
+  }
+
+  &__column--article {
+      margin-bottom: 44px;
+  }
+
+  &__column--text {
+      width: 235px;
+      margin-top: 12px;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 19px;
+  }
+
+  &__item--img {
+      width: 790px;
+      height: 452px;
+      border-radius: 10px;
+      background-image: url("../../../../assets/images/stages.jpg");
+  }
+}

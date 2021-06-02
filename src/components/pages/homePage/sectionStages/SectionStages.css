@@ -1,0 +1,79 @@
+.section__stages {
+  height: 615px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.stages__item {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.stages__column {
+  width: 316px;
+  height: 546px;
+  width: 316px;
+  height: 546px;
+}
+
+.stages__column--point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.stages__column--number {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #F5841B;
+  color: #FFF;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 31px;
+}
+
+.stages__column--article {
+  margin-bottom: 44px;
+}
+
+.stages__column--text {
+  width: 235px;
+  margin-top: 12px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.stages__item--img {
+  width: 790px;
+  height: 452px;
+  border-radius: 10px;
+  background-image: url("../../../../assets/images/stages.jpg");
+}
+/*# sourceMappingURL=SectionStages.css.map */

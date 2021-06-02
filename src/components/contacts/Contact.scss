@@ -1,0 +1,80 @@
+@import '../../assets/scss/vars';
+
+
+.pict-whatsapp {
+  background-image: url("../../assets/images/whatsapp.svg");
+  width: 27px;
+  height: 27px;
+}
+
+.pict-telepphone {
+  background-image: url("../../assets/images/telephone_menu.svg");
+  width: 27px;
+  height: 27px;
+}
+
+.pict-email {
+  background-image: url("../../assets/images/mail.svg");
+  width: 29px;
+  height: 27px;
+}
+
+.pict-skype {
+  background-image: url("../../assets/images/skype.svg");
+  width: 27px;
+  height: 27px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    padding-bottom: 10px;
+  }
+
+  &__text {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 36px;
+  }
+
+  &__contacts-phone {
+    width: 280px;
+    height: 52px;
+    font-size: 22px;
+    line-height: 26px
+  }
+
+  &__contacts-adress {
+    width: 170px;
+    height: 52px;
+    font-size: 22px;
+    line-height: 26px
+  }
+
+  .btn__map {
+    width: 221px;
+    height: 54px;
+    border-radius: 63px;
+    background: none;
+    border: 2px solid $color_white;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  &__contacts-pictogram {
+    display: flex;
+    align-items: center;
+  }
+
+  &__pict {
+    margin: 6px 11px 6px 0;
+  }
+}

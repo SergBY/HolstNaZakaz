@@ -1,4 +1,12 @@
 import './phone.css';
+import PropTypes from 'prop-types';
+
+const propTypes = {
+  mainPhone: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ])
+};
 
 function Phone(props) {
   return (
@@ -9,5 +17,7 @@ function Phone(props) {
   </div>
   )
 }
+
+Phone.propTypes = propTypes;
 
 export default Phone;

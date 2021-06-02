@@ -1,0 +1,53 @@
+@import "../../../../assets/scss/vars";
+
+.section__questions h2 {
+  width: 1200px;
+  margin-bottom: 34px;
+  margin-top: 40px;
+}
+.accordion {
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.accordion-title {
+  width: 990px;
+  padding: 17px 0;
+  color: #000;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  transition: background-color .25s ease;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+  transition: height .25s ease, opacity .25s ease, padding 0s ease;
+  color: #777;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 1px solid $color_lightOrange;
+
+}
+
+.simb {
+  color: $color_lightOrange;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 60%;
+  }
+}
