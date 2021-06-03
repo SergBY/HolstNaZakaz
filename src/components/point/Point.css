@@ -1,0 +1,21 @@
+.point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.point p {
+  width: 630px;
+}
+
+.point__dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #FA5F2E;
+  margin-right: 7px;
+}
+/*# sourceMappingURL=Point.css.map */
