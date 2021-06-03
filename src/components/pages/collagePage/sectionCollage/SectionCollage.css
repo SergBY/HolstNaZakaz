@@ -1,0 +1,51 @@
+.section__collage p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.section__collage {
+  height: 1403px;
+}
+
+.collage__img-1 {
+  background-image: url(../../../../assets/images/collage-1.jpg);
+  width: 482px;
+  height: 329px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.collage__img-2 {
+  background-image: url(../../../../assets/images/collage-2.jpg);
+  width: 382px;
+  height: 287px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.collage__item {
+  margin-top: 33px;
+}
+
+.collage__item p {
+  margin: 27px 0;
+}
+
+.collage__item .title-3 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.points {
+  padding-left: 103px;
+}
+
+.points p {
+  margin: 7px 0;
+}
+/*# sourceMappingURL=SectionCollage.css.map */
