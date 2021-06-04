@@ -1,0 +1,62 @@
+p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.section__dream-art {
+  height: 1424px;
+}
+
+.dream-art__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: left;
+}
+
+.dream-art__img-1 {
+  background-image: url(../../../../assets/images/dream-art-1.jpg);
+  width: 410px;
+  height: 529px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.dream-art__img-2 {
+  background-image: url(../../../../assets/images/dream-art-2.jpg);
+  width: 380px;
+  height: 461px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.dream-art__item {
+  margin-top: 33px;
+}
+
+.dream-art__item p {
+  margin: 20px 0;
+}
+
+.dream-art__item .title-3 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.points {
+  padding-left: 103px;
+}
+
+.points p {
+  margin: 6px 0;
+}
+/*# sourceMappingURL=SectionDreamArt.css.map */
