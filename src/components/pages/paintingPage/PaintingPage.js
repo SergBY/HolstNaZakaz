@@ -8,7 +8,7 @@ function PrintingPage() {
   return (
     <>
       <Header/>
-      <SectionStart/>
+      <SectionStart title="Портрет под живопись со скидкой -25%"/>
       <SectionPortraitAsPainting/>
       <Footer/>
     </>

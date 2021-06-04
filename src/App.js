@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
       <HomePage/>
-      <PrintingPage/>
+      {/* <PrintingPage/>
       <CollagePage/>
       <PaintingPage/>
       <LoveIsPage/>
-      {/* <InCharacterPage/> */}
+      <InCharacterPage/> */}
     </div>
   );
 }

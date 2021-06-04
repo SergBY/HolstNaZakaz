@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <>
       <Header/>
-      <SectionStart/>
+      <SectionStart title="Печать на холсте по фото со скидкой -25%"/>
       <SectionOffer/>
       <SectionStages/>
       <SectionSelection/>

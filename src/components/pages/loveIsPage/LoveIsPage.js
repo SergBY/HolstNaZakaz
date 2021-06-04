@@ -8,7 +8,7 @@ function LoveIsPage() {
   return (
     <>
       <Header/>
-      <SectionStart/>
+      <SectionStart title="Портрет Love Is по фото со скидкой -25%"/>
       <SectionLoveIs/>
       <Footer/>
     </>
