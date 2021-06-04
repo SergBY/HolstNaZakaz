@@ -7,6 +7,7 @@ import PaintingPage from './components/pages/paintingPage/PaintingPage';
 import LoveIsPage from './components/pages/loveIsPage/LoveIsPage';
 import InCharacterPage from './components/pages/inCharacterPage/InCharacterPage';
 import DreamArtPage from './components/pages/dreamArtPage/DreamArtPage';
+import PhotomosaicPage from './components/pages/photomosaicPage/PhotomosaicPage';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <PaintingPage/>
       <LoveIsPage/>
       <InCharacterPage/>
-      <DreamArtPage/> */}
+      <DreamArtPage/>
+      <PhotomosaicPage/> */}
     </div>
   );
 }
