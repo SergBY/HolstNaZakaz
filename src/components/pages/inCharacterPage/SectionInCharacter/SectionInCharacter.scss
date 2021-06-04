@@ -1,0 +1,55 @@
+
+
+@import '../../../../assets/scss/vars';
+
+p {
+  @extend %main-text;
+}
+
+.section__portrait-in-character {
+  height: 1445px;
+}
+
+.portrait-in-character__images {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.portrait-in-character__img-1 {
+  background-image: url(../../../../assets/images/portrait-in-character-1.jpg);
+  width: 410px;
+  height: 529px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.portrait-in-character__img-2 {
+  background-image: url(../../../../assets/images/portrait-in-character-2.jpg);
+  width: 380px;
+  height: 529px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+}
+
+.portrait-in-character__item {
+  margin-top: 33px;
+
+  p {
+    margin: 20px 0;
+  }
+
+  .title-3 {
+    margin-top: 33px;
+    margin-bottom: 33px;
+  }
+}
+
+.points {
+  padding-left: 103px;
+  p {
+    margin: 6px 0;
+  }
+}

@@ -1,0 +1,61 @@
+p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.section__portrait-in-character {
+  height: 1445px;
+}
+
+.portrait-in-character__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: left;
+}
+
+.portrait-in-character__img-1 {
+  background-image: url(../../../../assets/images/portrait-in-character-1.jpg);
+  width: 410px;
+  height: 529px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.portrait-in-character__img-2 {
+  background-image: url(../../../../assets/images/portrait-in-character-2.jpg);
+  width: 380px;
+  height: 529px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+}
+
+.portrait-in-character__item {
+  margin-top: 33px;
+}
+
+.portrait-in-character__item p {
+  margin: 20px 0;
+}
+
+.portrait-in-character__item .title-3 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.points {
+  padding-left: 103px;
+}
+
+.points p {
+  margin: 6px 0;
+}
+/*# sourceMappingURL=SectionInCharacter.css.map */
