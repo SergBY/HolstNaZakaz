@@ -1,0 +1,71 @@
+
+
+@import '../../../../assets/scss/vars';
+
+p {
+  @extend %main-text;
+}
+
+.section__portrait-oil {
+  height: 1736px;
+}
+
+.portrait-oil__images {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.portrait-oil__img-1 {
+  background-image: url(../../../../assets/images/portrait-oil-1.jpg);
+  width: 410px;
+  height: 602px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.portrait-oil__img-2 {
+  background-image: url(../../../../assets/images/portrait-oil-2.jpg);
+  width: 380px;
+  height: 548px;
+  border-radius: 5px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 12px;
+}
+
+.portrait-oil__img-3 {
+  background-image: url(../../../../assets/images/portrait-oil-3.jpg);
+  width: 482px;
+  height: 294px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+  margin-top: 36px;
+}
+
+.portrait-oil__item {
+  margin-top: 33px;
+
+  p {
+    margin: 20px 0;
+  }
+
+  .title-3 {
+    margin-top: 33px;
+    margin-bottom: 33px;
+  }
+}
+
+.points {
+  padding-left: 103px;
+
+  &--right{
+    padding-left: 513px;
+  }
+
+  p {
+    margin: 7px 0;
+  }
+}
