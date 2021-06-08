@@ -1,3 +1,4 @@
+import React from 'react';
 import './logo.css';
 import PropTypes from 'prop-types';
 

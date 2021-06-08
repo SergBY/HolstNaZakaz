@@ -1,3 +1,4 @@
+import React from 'react';
 import './SectionPrintingPhoto.css';
 import Title from '../../../title/Title';
 import Point from '../../../point/Point';

@@ -1,3 +1,4 @@
+import React from 'react';
 import './SectionInCharacter.css';
 import Title from '../../../title/Title';
 import Point from '../../../point/Point';

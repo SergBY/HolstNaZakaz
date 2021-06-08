@@ -1,3 +1,5 @@
+import React from 'react';
+
 function ReviewCard(props) {
   return (
     <div className="reviews__card">

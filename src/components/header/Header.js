@@ -1,3 +1,4 @@
+import React from 'react';
 import './header.css';
 import Logo from '../logo/Logo';
 import Nav from '../navigation/Navigation';

@@ -1,3 +1,4 @@
+import React from 'react';
 import './SectionStages.css';
 import Title from '../../../title/Title';
 import StagesPoint from './StagesPoint';

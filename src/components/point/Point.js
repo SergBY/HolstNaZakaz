@@ -1,5 +1,5 @@
+import React from 'react';
 import './Point.css';
-import { checkPropTypes } from "prop-types";
 
 function Point (props) {
   return (

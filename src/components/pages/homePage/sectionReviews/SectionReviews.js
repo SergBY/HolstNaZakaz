@@ -1,3 +1,4 @@
+import React from 'react';
 import './SectionReviews.css';
 import Title from '../../../title/Title';
 import Button from '../../../button/Button';
@@ -12,7 +13,7 @@ function SectionReviews() {
         <div className="reviews__item">
           <div className="reviews__cards">
             {Reviews.map(link => (
-              <ReviewCard avatar={link.avatar} name={link.name} text={link.text}/>
+              <ReviewCard avatar={link.avatar} name={link.name} text={link.text} key={link.id}/>
             ))}
           </div>
           <Button btnSize="medium" title="Читать все отзывы"/>

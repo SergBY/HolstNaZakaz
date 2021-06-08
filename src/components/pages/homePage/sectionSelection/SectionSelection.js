@@ -1,3 +1,4 @@
+import React from 'react';
 import './SectionSelection.css';
 import Title from '../../../title/Title';
 import SelectionBlock from './SelectionBlock';

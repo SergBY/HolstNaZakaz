@@ -1,3 +1,4 @@
+import React from 'react';
 import Title from '../../../title/Title';
 import Button from '../../../button/Button';
 import PropTypes from 'prop-types';

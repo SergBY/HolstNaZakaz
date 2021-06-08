@@ -1,3 +1,4 @@
+import React from 'react';
 import './Contact.css';
 import Title from '../title/Title';
 import Button from '../button/Button';

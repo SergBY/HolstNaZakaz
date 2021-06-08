@@ -1,3 +1,4 @@
+import React from 'react';
 import Title from '../title/Title';
 
 import { WorkTime } from '../../constants';
@@ -5,9 +6,9 @@ import { WorkTime } from '../../constants';
 function Worktime() {
   return(
     <div className="contacts__contacts">
-      <div class="contacts__worktime">
+      <div className="contacts__worktime">
         <Title titleSize="contacts" title="График работы"/>
-        <p class="contacts__text">{WorkTime}</p>
+        <p className="contacts__text">{WorkTime}</p>
       </div>
     </div>
   )

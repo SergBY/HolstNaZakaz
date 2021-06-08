@@ -1,3 +1,4 @@
+import React from 'react';
 import './section-start.css';
 import Button from '../button/Button';
 import Title from '../title/Title';

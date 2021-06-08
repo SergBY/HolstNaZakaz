@@ -14,14 +14,14 @@ function App() {
   return (
     <div className="App">
       <HomePage/>
-      {/* <PrintingPage/>
+      <PrintingPage/>
       <CollagePage/>
       <PaintingPage/>
       <LoveIsPage/>
       <InCharacterPage/>
       <DreamArtPage/>
       <PhotomosaicPage/>
-      <PortraitOilPage/> */}
+      <PortraitOilPage/>
     </div>
   );
 }

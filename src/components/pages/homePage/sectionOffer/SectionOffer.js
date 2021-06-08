@@ -1,3 +1,4 @@
+import React from 'react';
 import './SectionOffer.css';
 import Title from '../../../title/Title';
 import OfferItem from './OfferItem';

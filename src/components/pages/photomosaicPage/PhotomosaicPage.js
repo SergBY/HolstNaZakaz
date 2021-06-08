@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from '../../header/Header';
 import SectionStart from '../../sectionStart/SectionStart';
 import SectionPhotomosaic from './SectionPhotomosaic/SectionPhotomosaic';
