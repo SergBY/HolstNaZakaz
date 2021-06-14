@@ -7,7 +7,7 @@ function SectionPhotomosaic() {
   return(
     <section className="section section__photomosaic wrap">
       <div className="photomosaic__inner">
-        <Title titleSize="title-2" title="Портреты в образе"/>
+        <Title titleSize="title-2" title="Фотомозаика из фотографий"/>
         <div className="photomosaic__item">
           <div className="photomosaic__img-1"></div>
           <p>Хватит хранить фото в телефоне и альбомах! Пора переносить их в свой дом, заполнять ими пространство вокруг!</p>

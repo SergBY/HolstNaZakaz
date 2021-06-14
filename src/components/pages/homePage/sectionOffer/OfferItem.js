@@ -35,7 +35,7 @@ function OfferItem(props) {
           <p className="offer__text">{props.text2}</p>
         </> 
         </div>
-        <Button btnSize="medium" title="Узнать больше"/>
+        <Button btnSize="medium" title="Узнать больше" link={props.link}/>
       </div>
     </div>
   )

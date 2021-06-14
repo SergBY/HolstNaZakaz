@@ -2,6 +2,7 @@ import React from 'react';
 import './Navigation.css';
 import Login from '../login/Login';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   nav: PropTypes.array.isRequired
@@ -16,12 +17,14 @@ function Nav(props) {
                   return (
                     <li className="menu__list-item menu__dropdown" key={link.id}>
                       <div className="menu__dropdown-arr">
-                        <a className="menu__list-link" href={link.path}>{link.name} &#8744;</a>
+                        <a className="menu__list-link">{link.name} &#8744; </a>
                         <div className="arr"></div>
                       </div>
                       <ul className="dropdown">
                         {link.dropdown.map(drop => 
-                          <li key={drop.id}><a href={drop.path}>{drop.name}</a></li>
+                          <li key={drop.id}>
+                            <Link to={drop.path}>{drop.name}</Link>
+                          </li>
                         )}
                       </ul>
                     </li>
@@ -29,7 +32,9 @@ function Nav(props) {
                 }
                 return (
                   <li className="menu__list-item" key={link.id}>
-                    <a className="menu__list-link" href={link.path}>{link.name}</a>
+                    {/* <a className="menu__list-link"> */}
+                      <Link to={link.path}>{link.name}</Link>
+                    {/* </a> */}
                   </li>
                 )
               })}

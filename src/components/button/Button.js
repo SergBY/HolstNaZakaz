@@ -1,6 +1,12 @@
 import React from 'react';
 import './button.css';
 import PropTypes from 'prop-types';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const propTypes = {
   btnSize: PropTypes.oneOf(['big', 'medium', 'small', 'map']).isRequired
@@ -22,7 +28,9 @@ function Button(props) {
     btnClass = 'btn btn__map';
   }
   return (
+    <Link to={props.link}>
       <button className={btnClass}>{props.title}</button>
+    </Link>
   )
 }
 

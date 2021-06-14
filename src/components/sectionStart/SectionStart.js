@@ -12,7 +12,7 @@ function SectionStart(props) {
             <Title titleSize="title-1" title={props.title}/>
             <Title titleSize="start__text" title="Изготовление заказа от 30 минут и бесплатная доставка по Москве"/>
           </div>
-          <Button btnSize="big" title="Рассчитать стоимость"/>
+          <Button btnSize="big" title="Рассчитать стоимость" link="/cost"/>
         </div>
       </div>
     </section>

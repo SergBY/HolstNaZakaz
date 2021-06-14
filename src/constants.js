@@ -14,52 +14,52 @@ export const Navigation = [
   {
     id: 1,
     name: 'Главная',
-    path: '#'
+    path: '/'
   },
   {
     id: 2,
     name: 'О печати на холсте',
-    path: '#'
+    path: '/printing'
   },
   {
     id: 3,
     name: 'Портреты на холсте',
-    path: '#',
+    // path: '#',
     dropdown:[
       {
         id: 31,
         name: 'Живопись',
-        path: '#'
+        path: '/painting'
       },
       {
         id: 32,
         name: 'Дрим-арт',
-        path: '#'
+        path: '/dreemart'
       },
       {
         id: 33,
         name: 'Коллаж',
-        path: '#'
+        path: '/collage'
       },
       {
         id: 34,
         name: 'Портрет маслом',
-        path: '#'
+        path: '/oil'
       },
       {
         id: 35,
         name: 'Портрет в образе',
-        path: '#'
+        path: '/character'
       },
       {
         id: 36,
         name: 'Фотомазайка',
-        path: '#'
+        path: '/photomosaic'
       },
       {
         id: 37,
         name: 'Love-is',
-        path: '#'
+        path: '/loveis'
       },
     ]
   },
