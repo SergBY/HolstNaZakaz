@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 const propTypes = {
-  btnSize: PropTypes.oneOf(['big', 'medium', 'small', 'map']).isRequired
+  btnSize: PropTypes.oneOf(['big', 'medium', 'small', 'map', 'form']).isRequired
 };
 
 function Button(props) {
@@ -26,6 +26,9 @@ function Button(props) {
   }
   if (props.btnSize === 'map') {
     btnClass = 'btn btn__map';
+  }
+  if (props.btnSize === 'form') {
+    btnClass = 'btn btn--form';
   }
   return (
     <Link to={props.link}>

@@ -19,16 +19,4 @@
   background-color: #F5841B;
   color: #FFF;
 }
-
-.menu__login .menu__registration-btn {
-  font-size: 10px;
-  border: none;
-  background: none;
-  color: #FFF;
-  cursor: pointer;
-}
-
-.menu__login .menu__registration-btn:hover {
-  border-bottom: 1px solid #F5841B;
-}
 /*# sourceMappingURL=login.css.map */

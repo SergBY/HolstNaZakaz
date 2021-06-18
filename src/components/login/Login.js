@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './login.css';
-import Modal from '../contacts/Pop-up/Contacts_Pop-up';
+import Modal from '../popUp/PopUp';
+import { LoginForm } from './loginForm/LoginForm';
 
 function Login() {
   const [modalActive, setModalActive] = useState(false);
@@ -8,10 +9,10 @@ function Login() {
     <>
       <div className="menu__login">
         <button className="menu__login-btn" onClick={() => setModalActive(true)}>Войти</button>
-        <button className="menu__registration-btn" href="#">Регистрация</button>
+        {/* <button className="menu__registration-btn" href="#">Регистрация</button> */}
       </div>
       <Modal active={modalActive} setActive={setModalActive}>
-        <p>dfsdf</p>
+        <LoginForm/>
       </Modal>
     </>
   ) 

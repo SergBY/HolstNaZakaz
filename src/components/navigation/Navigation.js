@@ -3,6 +3,7 @@ import './Navigation.css';
 import Login from '../login/Login';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import Registration from '../registartion/Registration';
 
 const propTypes = {
   nav: PropTypes.array.isRequired
@@ -39,7 +40,10 @@ function Nav(props) {
                 )
               })}
             </ul>
-            <Login/>
+            <div>
+              <Login/>
+              <Registration/>
+            </div> 
           </nav>
   );
 }

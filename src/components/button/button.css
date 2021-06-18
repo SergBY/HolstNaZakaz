@@ -27,4 +27,13 @@
   font-size: 22px;
   line-height: 26px;
 }
+
+.btn--form {
+  width: 204px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 20px;
+  background: #FFF;
+  color: #F5841B;
+}
 /*# sourceMappingURL=button.css.map */
