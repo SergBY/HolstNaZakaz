@@ -1,13 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Button from '../../button/Button';
 import './LoginForm.css';
-import PopUp from '../../popUp/PopUp';
-import { RegistrationForm } from '../../registartion/registrationForm/RegistrationForm';
 
 
 export const LoginForm = (props) => {
   const { onClose }=props;
-  // const [popUpActive, setPopUpActive] = useState(false);
+
   return (
     <form className="login-form">
       <div className="login-form__input">
@@ -25,13 +23,6 @@ export const LoginForm = (props) => {
           <Button onClick={ onClose } btnSize="form" title="Войти"/>
           <Button onClick={ onClose } btnSize="form" title="Отмена"/>
         </div>
-        {/* <a href="#" className="registration">Зарегистрироваться</a> */}
-        {/* <div className="menu__login">
-          <Button btnSize="small" title="Регистрация" onClick={(e) => {setPopUpActive(true); e.preventDefault()}}/>
-        </div>
-        <PopUp active={popUpActive} setActive={setPopUpActive}>
-          <RegistrationForm onClose={(e) => {setPopUpActive(false); e.preventDefault()}} />
-        </PopUp> */}
       </div>
     </form>
   )
