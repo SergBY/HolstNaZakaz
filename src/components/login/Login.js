@@ -1,19 +1,19 @@
 import React, {useState} from 'react';
 import './login.css';
-import Modal from '../popUp/PopUp';
+import PopUp from '../popUp/PopUp';
 import { LoginForm } from './loginForm/LoginForm';
 
 function Login() {
-  const [modalActive, setModalActive] = useState(false);
+  const [modalActive, setPopUpActive] = useState(false);
   return (
     <>
       <div className="menu__login">
-        <button className="menu__login-btn" onClick={() => setModalActive(true)}>Войти</button>
+        <button className="menu__login-btn" onClick={() => setPopUpActive(true)}>Войти</button>
         {/* <button className="menu__registration-btn" href="#">Регистрация</button> */}
       </div>
-      <Modal active={modalActive} setActive={setModalActive}>
-        <LoginForm/>
-      </Modal>
+      <PopUp active={modalActive} setActive={setPopUpActive}>
+        <LoginForm onClose={(e) => {setPopUpActive(false); e.preventDefault()}} />
+      </PopUp>
     </>
   ) 
 }

@@ -1,8 +1,8 @@
-.modal__content {
+.popup__content {
   background: linear-gradient(321.7deg, rgba(245, 132, 27, 0.92) 41.23%, #FFB526 90.73%);
 }
 
-.modal {
+.popup {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.4);
@@ -24,12 +24,12 @@
   transition: 0.5s;
 }
 
-.modal.active {
+.popup.active {
   opacity: 1;
   pointer-events: all;
 }
 
-.modal__content {
+.popup__content {
   padding: 20px;
   border-radius: 12px;
   height: 600px;
@@ -40,7 +40,7 @@
   transition: all 0.4s;
 }
 
-.modal__content.active {
+.popup__content.active {
   -webkit-transform: scale(1);
           transform: scale(1);
 }

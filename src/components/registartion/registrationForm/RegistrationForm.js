@@ -2,7 +2,10 @@ import React from 'react';
 import Button from '../../button/Button';
 import './RegistrationForm.css';
 
-export const RegistrationForm = () => {
+export const RegistrationForm = (props) => {
+  const { onClose }=props;
+  const { register }=props;
+
   return (
     <form className="registration-form">
       <div className="registration-form__input">
@@ -24,8 +27,8 @@ export const RegistrationForm = () => {
         </div>
       </div>
       <div className="registration-form__btn">
-        <Button btnSize="form" title="Регистрация"/>
-        <Button btnSize="form" title="Отмена"/>
+        <Button onClick={ register } btnSize="form" title="Регистрация"/>
+        <Button onClick={ onClose } btnSize="form" title="Отмена"/>
       </div>
     </form>
   )

@@ -1,7 +1,7 @@
 import React from 'react';
 import './section-start.css';
-import Button from '../button/Button';
 import Title from '../title/Title';
+import Link from '../link/Link';
 
 function SectionStart(props) {
   return (
@@ -12,7 +12,9 @@ function SectionStart(props) {
             <Title titleSize="title-1" title={props.title}/>
             <Title titleSize="start__text" title="Изготовление заказа от 30 минут и бесплатная доставка по Москве"/>
           </div>
-          <Button btnSize="big" title="Рассчитать стоимость" link="/cost"/>
+          <div>
+            <Link linkSize="big" title="Рассчитать стоимость" href="/cost"/>
+          </div>
         </div>
       </div>
     </section>

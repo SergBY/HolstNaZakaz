@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../../../title/Title';
-import Button from '../../../button/Button';
 import PropTypes from 'prop-types';
+import Link from '../../../link/Link';
 
 const propTypes = {
   align: PropTypes.oneOf(['left', 'right']).isRequired,
@@ -35,7 +35,7 @@ function OfferItem(props) {
           <p className="offer__text">{props.text2}</p>
         </> 
         </div>
-        <Button btnSize="medium" title="Узнать больше" link={props.link}/>
+        <Link linkSize="medium" title="Узнать больше" href={props.link}/>
       </div>
     </div>
   )
