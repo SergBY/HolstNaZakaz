@@ -6,6 +6,11 @@ import SectionLoveIs from './sectionLoveIs/SectionLoveIs';
 import Footer from '../../footer/Footer';
 
 function LoveIsPage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>

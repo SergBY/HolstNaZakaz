@@ -6,7 +6,7 @@ const propTypes = {
   linkSize: PropTypes.oneOf(['big', 'medium', 'small', 'map', 'form']).isRequired
 };
 
-function Link(props) {
+function LinkBtn(props) {
   let linkClass = '';
 
   if (props.linkSize === 'big') {
@@ -31,6 +31,6 @@ function Link(props) {
   )
 }
 
-Link.propTypes = propTypes;
+LinkBtn.propTypes = propTypes;
 
-export default Link;
+export default LinkBtn;

@@ -4,6 +4,11 @@ import SectionStart from '../../sectionStart/SectionStart';
 import Footer from '../../footer/Footer';
 
 function CostPage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>

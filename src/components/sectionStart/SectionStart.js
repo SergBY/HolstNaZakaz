@@ -1,7 +1,9 @@
 import React from 'react';
 import './section-start.css';
 import Title from '../title/Title';
-import Link from '../link/Link';
+// import LinkBtn from '../link/Link';
+import { Link } from 'react-router-dom';
+
 
 function SectionStart(props) {
   return (
@@ -13,7 +15,10 @@ function SectionStart(props) {
             <Title titleSize="start__text" title="Изготовление заказа от 30 минут и бесплатная доставка по Москве"/>
           </div>
           <div>
-            <Link linkSize="big" title="Рассчитать стоимость" href="/cost"/>
+            {/* <LinkBtn linkSize="big" title="Рассчитать стоимость" href="/cost"/> */}
+            <div className="btn btn--big">
+              <Link to="/cost">Рассчитать стоимость</Link>
+            </div>
           </div>
         </div>
       </div>

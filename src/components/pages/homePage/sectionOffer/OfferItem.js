@@ -1,7 +1,9 @@
 import React from 'react';
 import Title from '../../../title/Title';
 import PropTypes from 'prop-types';
-import Link from '../../../link/Link';
+// import LinkBtn from '../../../link/Link';
+import { Link } from 'react-router-dom';
+
 
 const propTypes = {
   align: PropTypes.oneOf(['left', 'right']).isRequired,
@@ -35,7 +37,10 @@ function OfferItem(props) {
           <p className="offer__text">{props.text2}</p>
         </> 
         </div>
-        <Link linkSize="medium" title="Узнать больше" href={props.link}/>
+        {/* <LinkBtn linkSize="medium" title="Узнать больше" href={props.link}/> */}
+        <div className="btn btn--medium">
+          <Link to={props.link}>Узнать больше</Link>
+        </div>
       </div>
     </div>
   )

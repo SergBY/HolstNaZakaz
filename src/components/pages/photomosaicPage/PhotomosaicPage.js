@@ -6,6 +6,11 @@ import SectionPhotomosaic from './SectionPhotomosaic/SectionPhotomosaic';
 import Footer from '../../footer/Footer';
 
 function PhotomosaicPage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>

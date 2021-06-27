@@ -6,6 +6,11 @@ import SectionInCharacter from './SectionInCharacter/SectionInCharacter';
 import Footer from '../../footer/Footer';
 
 function PrintingPage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>

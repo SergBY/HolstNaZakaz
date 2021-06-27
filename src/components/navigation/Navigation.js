@@ -33,9 +33,7 @@ function Nav(props) {
                 }
                 return (
                   <li className="menu__list-item" key={link.id}>
-                    {/* <a className="menu__list-link"> */}
                       <Link to={link.path}>{link.name}</Link>
-                    {/* </a> */}
                   </li>
                 )
               })}

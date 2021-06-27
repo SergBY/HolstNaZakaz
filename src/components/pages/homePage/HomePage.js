@@ -9,6 +9,11 @@ import SectionQuestions from './sectionQuestions/SectionQuestions';
 import Footer from '../../footer/Footer';
 
 function HomePage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>

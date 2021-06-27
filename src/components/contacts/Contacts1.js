@@ -17,7 +17,7 @@ function Contacts1() {
         <p className="contacts__contacts-adress">
           {Adress}
         </p>
-        <a className="link__map" href="https://yandex.by/MAPS/?ll=37.739436%2C55.594454&mode=whatshere&whatshere%5Bpoint%5D=37.739213%2C55.595409&whatshere%5Bzoom%5D=18.58&z=16.38" target="_blank" rel="noreferrer">Посмотреть на карте</a>/>
+        <a className="link__map" href="https://yandex.by/MAPS/?ll=37.739436%2C55.594454&mode=whatshere&whatshere%5Bpoint%5D=37.739213%2C55.595409&whatshere%5Bzoom%5D=18.58&z=16.38" target="_blank" rel="noreferrer">Посмотреть на карте</a>
     </div>
   )
 }
