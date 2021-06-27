@@ -6,6 +6,11 @@ import SectionPortraitOil from './SectionPortraitOil/SectionPortraitOil';
 import Footer from '../../footer/Footer';
 
 function PortraitOilPage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>
