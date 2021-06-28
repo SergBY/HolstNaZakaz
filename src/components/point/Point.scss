@@ -1,0 +1,19 @@
+@import '../../assets/scss/vars';
+
+
+.point {
+  display: flex;
+  align-items:center;
+
+  p {
+    width: 630px;
+  }
+}
+
+.point__dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: $color_orange;
+    margin-right: 7px;
+}

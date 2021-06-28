@@ -1,0 +1,50 @@
+@import '../../../../assets/scss/vars';
+
+
+.section__collage {
+  height: 1403px;
+  p {
+    @extend %main-text;
+  }
+}
+
+.collage__img-1 {
+  background-image: url(../../../../assets/images/collage-1.jpg);
+  width: 482px;
+  height: 329px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.collage__img-2 {
+  background-image: url(../../../../assets/images/collage-2.jpg);
+  width: 382px;
+  height: 287px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+
+.collage__item {
+  margin-top: 33px;
+
+  p {
+    margin: 27px 0;
+  }
+
+  .title-3 {
+    margin-top: 33px;
+    margin-bottom: 33px;
+  }
+}
+
+.points {
+  padding-left: 103px;
+
+  p {
+    margin: 7px 0;
+  }
+}

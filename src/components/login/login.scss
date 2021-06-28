@@ -20,16 +20,4 @@
           color: $color_white;
       }
   }
-
-  .menu__registration-btn {
-      font-size: 10px;
-      border: none;
-      background: none;
-      color: $color_white;
-      cursor: pointer;
-
-      &:hover {
-          border-bottom: 1px solid $color_lightOrange;
-      }
-  }
 }

@@ -32,12 +32,13 @@
         display: flex;
         width: 1200px;
         justify-content: space-between;
+        overflow: hidden;
     }
 
     &__card {
         display: flex;
         justify-content: space-evenly;
-        width: 585px;
+        min-width: 585px;
         height: 351px;
         margin: 36px 0;
         border-radius: 10px;

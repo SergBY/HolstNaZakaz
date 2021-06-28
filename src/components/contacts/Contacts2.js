@@ -1,3 +1,4 @@
+import React from 'react';
 import './Contact.css';
 import {Whatsapp, PhoneMoscow, PhoneSPB, Email, Skype } from '../../constants';
 

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,uBAAuB,CAAC;EACtB,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,KAAK,EC8BO,IAAI;ED7BhB,MAAM,EAAE,OAAO;CAKhB;;AAVD,AAOE,uBAPqB,AAOpB,MAAM,CAAC;EACJ,aAAa,EAAE,GAAG,CAAC,KAAK,CC4BV,OAAO;CD3BxB",
+    "sources": [
+        "Registration.scss",
+        "../../assets/scss/_vars.scss"
+    ],
+    "names": [],
+    "file": "Registration.css"
+}

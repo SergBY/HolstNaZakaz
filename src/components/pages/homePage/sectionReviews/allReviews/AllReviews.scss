@@ -1,0 +1,42 @@
+.all-reviews {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+.all-reviews__cards {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.all-reviews__btn {
+  // width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel .slide{
+  text-align: left !important;
+}
+
+.carousel-root {
+  width: 600px;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #000 !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #000 !important;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: none !important;
+}

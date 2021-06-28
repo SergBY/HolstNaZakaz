@@ -1,3 +1,4 @@
+import React from 'react';
 import './phone.css';
 import PropTypes from 'prop-types';
 

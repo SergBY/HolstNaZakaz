@@ -25,6 +25,7 @@
   height: 27px;
 }
 
+
 .contacts {
   display: flex;
   justify-content: space-between;
@@ -56,17 +57,22 @@
     line-height: 26px
   }
 
-  .btn__map {
+  .link__map {
     width: 221px;
     height: 54px;
     border-radius: 63px;
     background: none;
     border: 2px solid $color_white;
+    color: $color_white;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 1rem;
     line-height: 22px;
     margin-top: 15px;
     margin-bottom: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__contacts-pictogram {

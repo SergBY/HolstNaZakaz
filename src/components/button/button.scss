@@ -18,6 +18,9 @@
   height: 74px;
   font-size: 24px;
   line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn--medium {
@@ -25,4 +28,16 @@
   height: 60px;
   font-size: 22px;
   line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--form {
+  width: 204px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 20px;
+  background: $color_white;
+  color: $color_lightOrange;
 }

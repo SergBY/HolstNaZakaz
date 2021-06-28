@@ -1,0 +1,47 @@
+p {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.section__printing-foto-holst {
+  height: 1572px;
+}
+
+.printing-foto-holst__img-1 {
+  background-image: url(../../../../assets/images/printing-foto-holst-1.jpg);
+  width: 380px;
+  height: 488px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 30px;
+}
+
+.printing-foto-holst__img-2 {
+  background-image: url(../../../../assets/images/printing-foto-holst-2.jpg);
+  width: 380px;
+  height: 476px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.printing-foto-holst__item {
+  margin-top: 33px;
+}
+
+.printing-foto-holst__item p {
+  margin: 13px 0;
+}
+
+.printing-foto-holst__item .title-3 {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.points {
+  padding-left: 103px;
+}
+/*# sourceMappingURL=SectionPrintingPhoto.css.map */

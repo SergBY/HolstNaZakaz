@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from '../../header/Header';
 import SectionStart from '../../sectionStart/SectionStart';
 import SectionOffer from './sectionOffer/SectionOffer';
@@ -8,10 +9,15 @@ import SectionQuestions from './sectionQuestions/SectionQuestions';
 import Footer from '../../footer/Footer';
 
 function HomePage() {
+  
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header/>
-      <SectionStart/>
+      <SectionStart title="Печать на холсте по фото со скидкой -25%"/>
       <SectionOffer/>
       <SectionStages/>
       <SectionSelection/>

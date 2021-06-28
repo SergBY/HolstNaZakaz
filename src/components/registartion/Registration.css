@@ -1,0 +1,12 @@
+.menu__registration-btn {
+  font-size: 10px;
+  border: none;
+  background: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.menu__registration-btn:hover {
+  border-bottom: 1px solid #F5841B;
+}
+/*# sourceMappingURL=Registration.css.map */
