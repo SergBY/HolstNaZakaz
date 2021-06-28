@@ -46,6 +46,38 @@
           justify-content: center;
 }
 
+.btn--small {
+  width: 167px;
+  height: 40px;
+  font-weight: bold;
+  ont-size: 16px;
+  line-height: 17px;
+  background: #FFF;
+  color: black;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn--small-foto {
+  background: #FFF;
+  color: #FA5F2E;
+  border: 1px solid #FA5F2E;
+}
+
+.btn--small-enable {
+  border: none;
+  color: #FFF;
+  background: #FA5F2E;
+}
+
 .btn--form {
   width: 204px;
   height: 45px;

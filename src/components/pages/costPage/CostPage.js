@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../header/Header';
 import SectionStart from '../../sectionStart/SectionStart';
+import SectionCost from './sectionCost/SectionCost';
 import Footer from '../../footer/Footer';
 
 function CostPage() {
@@ -13,6 +14,7 @@ function CostPage() {
     <>
       <Header/>
       <SectionStart title="Печать на холсте по фото со скидкой -25%"/>
+      <SectionCost/>
       <Footer/>
     </>
   );

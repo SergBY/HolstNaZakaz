@@ -18,6 +18,12 @@ function Button(props) {
   if (props.btnSize === 'small') {
     btnClass = 'btn btn--small';
   }
+  if (props.btnSize === 'enable') {
+    btnClass = 'btn btn--small btn--small-enable';
+  }
+  if (props.btnSize === 'foto') {
+    btnClass = 'btn btn--small btn--small-foto';
+  }
   if (props.btnSize === 'map') {
     btnClass = 'btn btn__map';
   }

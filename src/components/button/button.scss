@@ -33,6 +33,34 @@
   justify-content: center;
 }
 
+.btn--small {
+  width: 167px;
+  height: 40px;
+  font-weight: bold;
+  ont-size: 16px;
+  line-height: 17px;
+  background: $color_white;
+  // color:$color_orange;
+  color:black;
+  // border: 1px solid $color_orange;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--small-foto {
+  background: $color_white;
+  color:$color_orange;
+  border: 1px solid $color_orange;
+}
+
+.btn--small-enable {
+  border: none;
+  color: $color_white;
+  background: $color_orange;
+}
+
 .btn--form {
   width: 204px;
   height: 45px;
