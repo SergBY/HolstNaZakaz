@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../../title/Title';
+import Title from '../../../title/Title';
 import PropTypes from 'prop-types';
 
 const propTypes = {

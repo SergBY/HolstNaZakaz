@@ -72,6 +72,12 @@
   border: 1px solid #FA5F2E;
 }
 
+.foto-size {
+  background: #FFF;
+  color: black;
+  border: none;
+}
+
 .btn--small-enable {
   border: none;
   color: #FFF;

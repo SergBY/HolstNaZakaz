@@ -3,7 +3,7 @@ import './button.css';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  btnSize: PropTypes.oneOf(['big', 'medium', 'small', 'map', 'form']).isRequired
+  btnSize: PropTypes.oneOf(['big', 'medium', 'small', 'map', 'form', 'foto', 'foto-size']).isRequired
 };
 
 function Button(props) {
@@ -18,11 +18,11 @@ function Button(props) {
   if (props.btnSize === 'small') {
     btnClass = 'btn btn--small';
   }
-  if (props.btnSize === 'enable') {
-    btnClass = 'btn btn--small btn--small-enable';
-  }
   if (props.btnSize === 'foto') {
     btnClass = 'btn btn--small btn--small-foto';
+  }
+  if (props.btnSize === 'foto-size') {
+    btnClass = 'btn foto-size';
   }
   if (props.btnSize === 'map') {
     btnClass = 'btn btn__map';
