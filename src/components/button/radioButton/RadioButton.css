@@ -1,0 +1,70 @@
+.btn--small {
+  display: inline-block;
+}
+
+.btn--small input[type=radio] {
+  display: none;
+}
+
+.btn--small label {
+  width: 193px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 36px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.btn--small input[type=radio]:checked + label {
+  background: #F5841B;
+  color: #FFF;
+  border: none;
+}
+
+.btn--small label:hover {
+  background: #F5841B;
+  color: #FFF;
+  border: none;
+}
+
+.btn--small-foto {
+  background: #FFF;
+  color: #FA5F2E;
+  border: 1px solid #FA5F2E;
+}
+
+.btn--foto-size {
+  background: #FFF;
+  color: black;
+  border: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn--foto-size input[type=radio] {
+  display: none;
+}
+
+.btn--foto-size input[type=radio]:checked + label {
+  color: #F5841B;
+  border: none;
+}
+
+.btn--foto-size label:hover {
+  color: #F5841B;
+  border: none;
+}
+/*# sourceMappingURL=RadioButton.css.map */

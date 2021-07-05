@@ -1,27 +1,23 @@
-.cost__points--numPoint {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.cost__inner {
+  margin-top: 85px;
 }
 
-.cost__points--number {
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-  background: #F5841B;
-  color: #FFF;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 20px;
+.cost__item {
+  margin-top: 43px;
+}
+
+.cost__points--point {
+  width: 470px;
+}
+
+.cost__points--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 31px;
+  margin-top: 37px;
+}
+
+.cost__points--item {
+  margin-left: 51px;
 }
 /*# sourceMappingURL=SectionCost.css.map */

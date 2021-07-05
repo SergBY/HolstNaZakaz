@@ -47,14 +47,16 @@
 }
 
 .btn--small {
-  width: 167px;
+  width: 193px;
   height: 40px;
+  padding: 0;
+  margin-right: 16px;
   font-weight: bold;
-  ont-size: 16px;
+  font-size: 16px;
   line-height: 17px;
   background: #FFF;
+  color: #FA5F2E;
   color: black;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,24 +66,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.btn--small-foto {
-  background: #FFF;
-  color: #FA5F2E;
-  border: 1px solid #FA5F2E;
-}
-
-.foto-size {
-  background: #FFF;
-  color: black;
-  border: none;
-}
-
-.btn--small-enable {
-  border: none;
-  color: #FFF;
-  background: #FA5F2E;
 }
 
 .btn--form {

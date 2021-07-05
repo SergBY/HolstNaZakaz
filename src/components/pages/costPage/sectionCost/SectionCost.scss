@@ -1,22 +1,25 @@
 @import '../../../../assets/scss/vars';
 
+.cost__inner {
+  margin-top: 85px;
+}
+
+.cost__item {
+  margin-top: 43px;
+}
+
 .cost__points {
-  &--numPoint {
-    display: flex;
+  &--point {
+    width: 470px;
   }
 
-  &--number {
-    width: 27px;
-    height: 27px;
-    border-radius: 50%;
-    background: #F5841B;
-    color: $color_white;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 20px;
+  &--title {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 31px;
+    margin-top: 37px;
+  }
+
+  &--item {
+    margin-left: 51px;
   }
 }
+

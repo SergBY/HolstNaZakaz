@@ -1,0 +1,60 @@
+@import '../../../assets/scss/vars';
+
+.btn--small {
+	display: inline-block;
+}
+.btn--small input[type=radio] {
+	display: none;
+}
+.btn--small label {
+  width: 193px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 36px;
+	user-select: none;
+}
+
+.btn--small input[type=radio]:checked + label {
+	background: $color_lightOrange;
+  color: $color_white;
+  border: none;
+}
+ 
+.btn--small label:hover {
+	background: $color_lightOrange;
+  color: $color_white;
+  border: none;
+}
+
+.btn--small-foto {
+  background: $color_white;
+  color:$color_orange;
+  border: 1px solid $color_orange;
+}
+
+.btn--foto-size {
+  background: $color_white;
+  color: black;
+  border: none;
+	display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn--foto-size input[type=radio] {
+	display: none;
+}
+
+.btn--foto-size input[type=radio]:checked + label {
+  color: $color_lightOrange;
+  border: none;
+}
+ 
+.btn--foto-size label:hover {
+  color: $color_lightOrange;
+  border: none;
+}
+

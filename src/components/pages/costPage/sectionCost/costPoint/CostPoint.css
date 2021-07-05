@@ -1,0 +1,28 @@
+.cost__points--numPoint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cost__points--number {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border: solid 2px #F5841B;
+  background: none;
+  color: #F5841B;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 31px;
+}
+/*# sourceMappingURL=CostPoint.css.map */

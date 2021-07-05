@@ -149,3 +149,26 @@ export const Question = [
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit maiores aliquid quos assumenda eaque perspiciatis repellat velit cupiditate totam, atque accusamus repudiandae possimus enim, ullam incidunt obcaecati fugiat laborum dolorem optio dolor vero! Quas, dicta qui sequi ratione nobis sapiente, ipsa iusto vero amet culpa, voluptate saepe asperiores eligendi. Vel distinctio ut numquam similique libero corrupti illo dolor, reiciendis possimus?'
   }
 ];
+
+export const HolstSizes = [
+  {
+    id: 1,
+    size: '30x40',
+  },
+  {
+    id: 2,
+    size: '40x60',
+  },
+  {
+    id: 3,
+    size: '50x70',
+  },
+  {
+    id: 4,
+    size: '60x90',
+  },
+  {
+    id: 5,
+    size: '80x120',
+  },
+];

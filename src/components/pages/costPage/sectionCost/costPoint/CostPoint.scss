@@ -1,0 +1,24 @@
+@import '../../../../../assets/scss/vars';
+
+.cost__points {
+  
+  &--numPoint {
+    display: flex;
+  }
+
+  &--number {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: solid 2px $color_lightOrange;
+    background: none;
+    color: $color_lightOrange;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+  }
+}

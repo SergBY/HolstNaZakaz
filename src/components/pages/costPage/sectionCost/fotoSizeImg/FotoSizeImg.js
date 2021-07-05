@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './FotoSizeImg.css';
 
 const propTypes = {
-  fotoSize: PropTypes.oneOf(['30x40', '40x60', '50x70', '60x90', '80x120']).isRequired
+  fotoSize: PropTypes.oneOf(['30x40', '40x60', '50x70', '60x90', '80x120', '']).isRequired
 };
 
 function FotoSizeImg(props) {

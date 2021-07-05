@@ -34,37 +34,21 @@
 }
 
 .btn--small {
-  width: 167px;
+  width: 193px;
   height: 40px;
+  padding: 0;
+  margin-right: 16px;
   font-weight: bold;
-  ont-size: 16px;
+  font-size: 16px;
   line-height: 17px;
   background: $color_white;
-  // color:$color_orange;
+  color:$color_orange;
   color:black;
   // border: 1px solid $color_orange;
-  border: 1px solid black;
+  // border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.btn--small-foto {
-  background: $color_white;
-  color:$color_orange;
-  border: 1px solid $color_orange;
-}
-
-.foto-size {
-  background: $color_white;
-  color: black;
-  border: none;
-}
-
-.btn--small-enable {
-  border: none;
-  color: $color_white;
-  background: $color_orange;
 }
 
 .btn--form {

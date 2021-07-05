@@ -22,7 +22,7 @@ function Button(props) {
     btnClass = 'btn btn--small btn--small-foto';
   }
   if (props.btnSize === 'foto-size') {
-    btnClass = 'btn foto-size';
+    btnClass = 'btn btn--foto-size';
   }
   if (props.btnSize === 'map') {
     btnClass = 'btn btn__map';
