@@ -1,11 +1,13 @@
 @import '../../../../assets/scss/vars';
 
 .cost__inner {
+  width: 100%;
   margin-top: 85px;
 }
 
 .cost__item {
   margin-top: 43px;
+  margin-bottom: 85px;
 }
 
 .cost__points {
@@ -23,3 +25,132 @@
   }
 }
 
+
+
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-icon-wrapper {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #fff;
+  }
+}
+  
+.input__file-button-text {
+  line-height: 1;
+  margin-top: 1px;
+}
+
+
+
+.btn--small-foto {
+  display: flex;
+}
+ 
+
+.delivery {
+  margin-top: 57px;
+
+  &__inner {
+    margin-bottom: 13px;
+  }
+
+  &__form{
+    // display: grid;
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    column-gap: 1%;
+
+    & input {
+      height: 60px;
+      background: #F7F7F7;
+      border-radius: 49px;
+      margin: 10px 15px;
+    }
+
+    &--left{
+      max-width: 380px;
+      width: 100%;
+    }
+
+    &--right{
+      max-width: 790px;
+
+      &-top{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    &--tel,
+    &--promo {
+      max-width: 380px;
+      width: 25vw;
+      min-width: 240px;
+    }
+    &--address {
+      max-width: 300px;
+      width: 20vw;
+      min-width: 220px;
+    }
+    &--data,
+    &--time {
+      max-width: 225px;
+      width: 15vw;
+      min-width: 150px;
+    }
+    &--comment {
+      min-width: 790px;
+      // width: 39vw;
+      width: 100%;
+      min-width: 450px;
+    }
+  }
+
+  &__radio {
+    // display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    padding-top: 4px;
+  
+    & input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+      }
+  }
+
+  &__indicator {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    border: 1px solid $color_orange;
+    border-radius: 50%;
+  }
+}
+
+.delivery__radio:hover input ~ .delivery__indicator,
+.delivery__radio input:focus ~ .delivery__indicator {
+  background: $color_lightOrange;
+}
+
+.cost__submit {
+  margin: 32px 0 0;
+  display: flex;
+  justify-content: center;
+}

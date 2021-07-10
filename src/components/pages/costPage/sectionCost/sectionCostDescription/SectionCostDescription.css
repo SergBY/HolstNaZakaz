@@ -1,0 +1,85 @@
+.cost-description .title-3 {
+  color: #F5841B;
+}
+
+.cost-description__inner {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 44px;
+}
+
+.cost-description__column {
+  width: 254px;
+  position: relative;
+}
+
+.cost-description .stages__column--text {
+  width: 210px;
+}
+
+.cost-description__imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 667px;
+}
+
+.cost-description__img-baguette {
+  position: absolute;
+  top: 24px;
+  width: 365px;
+  height: 520px;
+  background-image: url("../../../../../assets/images/baguett_big.png");
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.cost-description__img-foto {
+  position: absolute;
+  left: 220px;
+  top: -10px;
+  width: 447px;
+  height: 577px;
+  background-image: url("../../../../../assets/images/cost-descript-big.png");
+  -webkit-filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+}
+
+.cost-description__dop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 85px;
+}
+
+.cost-description__dop--points {
+  margin-left: 150px;
+  width: 800px;
+  height: 71px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[2];
+      grid-template-columns: repeat(2, 400px);
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+/*# sourceMappingURL=SectionCostDescription.css.map */

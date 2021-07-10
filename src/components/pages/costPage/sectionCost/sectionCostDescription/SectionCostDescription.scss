@@ -1,0 +1,66 @@
+@import '../../../../../assets/scss/vars';
+.cost-description {
+  & .title-3 {
+    color: $color_lightOrange;
+  }
+
+  &__inner {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 44px;
+  }
+
+  &__column {
+    width: 254px;
+    position: relative;
+  }
+
+  .stages__column--text {
+    width: 210px;
+  }
+
+  &__imgs {
+    display: flex;
+    position: relative;
+    width: 667px;
+  }
+
+  &__img-baguette {
+    position: absolute;
+    top: 24px;
+    width: 365px;
+    height: 520px;
+    background-image: url("../../../../../assets/images/baguett_big.png");
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  }
+  &__img-foto {
+    position: absolute;
+    left: 220px;
+    top: -10px;
+    width: 447px;
+    height: 577px;
+    background-image: url("../../../../../assets/images/cost-descript-big.png");
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+  }
+
+  &__dop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 85px;
+  }
+
+  &__dop--points {
+    margin-left: 150px;
+    width: 800px;
+    height: 71px;
+    // display: flex;
+    // flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: 1fr 1fr;
+  }
+}

@@ -11,9 +11,9 @@
 }
 
 .point__dot {
-    width: 18px;
+    min-width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-color: $color_orange;
+    background-color: $color_lightOrange;
     margin-right: 7px;
 }

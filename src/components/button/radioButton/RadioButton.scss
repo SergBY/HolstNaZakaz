@@ -58,3 +58,33 @@
   border: none;
 }
 
+.radio-round {
+  width: 17px;
+  height: 17px;
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+	cursor: pointer;
+	border: 1px solid $color_lightOrange;
+  background: none;
+	border-radius: 50%;
+  user-select: auto;
+	// user-select: none;
+  & input[type=radio] {
+    width: 150px;
+    display: flex;
+  }
+  & label {
+    margin-left: 20px;
+  }
+
+  & input[type=radio]:checked {
+    background: $color_lightOrange;
+    border: 1px solid $color_white;
+  }
+  & input[type=radio]:hover {
+    background: $color_lightOrange;
+    border: 1px solid $color_white;
+  }
+
+}

@@ -12,10 +12,10 @@
 }
 
 .point__dot {
-  width: 18px;
+  min-width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: #FA5F2E;
+  background-color: #F5841B;
   margin-right: 7px;
 }
 /*# sourceMappingURL=Point.css.map */
