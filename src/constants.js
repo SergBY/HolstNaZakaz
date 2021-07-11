@@ -1,3 +1,10 @@
+// Assuming logo.png is in the same folder as JS file
+import pict_145802 from './assets/images/baguettes/1458-02.jpg';
+import pict_145804 from './assets/images/baguettes/1458-04.jpg';
+import pict_145805 from './assets/images/baguettes/1458-05.jpg';
+import pict_145806 from './assets/images/baguettes/1458-06.jpg';
+import pict_145808 from './assets/images/baguettes/1458-08.jpg';
+
 export const MainLogo = 'HOLST-NA-ZAKAZ';
 export const MainPhone = '+7 (495) 115-38-16';
 
@@ -171,4 +178,99 @@ export const HolstSizes = [
     id: 5,
     size: '80x120',
   },
+];
+
+
+export const Baguette = [
+  {
+    id: 'b1',
+    img: pict_145802,
+    article: '1458-02',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Шоколадный',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b2',
+    img: pict_145804,
+    article: '1458-04',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Коричневый',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b3',
+    img: pict_145805,
+    article: '1458-05',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Коричневый',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b4',
+    img: pict_145806,
+    article: '1458-06',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Бронза',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b5',
+    img: pict_145808,
+    article: '1458-08',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Шоколадный',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b6',
+    img: pict_145802,
+    article: '1458-02',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Шоколадный',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b7',
+    img: pict_145804,
+    article: '1458-04',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Коричневый',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b8',
+    img: pict_145805,
+    article: '1458-05',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Коричневый',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b9',
+    img: pict_145806,
+    article: '1458-06',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Бронза',
+    cost: '840 ₽ / за п.м.'
+  },
+  {
+    id: 'b10',
+    img: pict_145808,
+    article: '1458-08',
+    material: 'Пластик',
+    width: '5.7 см',
+    color: 'Шоколадный',
+    cost: '840 ₽ / за п.м.'
+  },
+ 
 ];

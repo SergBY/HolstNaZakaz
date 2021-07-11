@@ -1,0 +1,47 @@
+@import '../../../../../assets/scss/vars';
+
+.cost__points {
+  &--point {
+    width: 470px;
+    margin-bottom: 55px;
+  }
+
+  &--title {
+    display: flex;
+    // margin-top: 42px;
+  }
+
+  &--item {
+    margin-left: 47px;
+    .btn {
+      margin: 4px 8px;
+    }
+    .btn--foto-size {
+      margin: 0;
+    }
+  }
+}
+
+
+
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+  
+.input__file-button-text {
+  line-height: 1;
+  margin-top: 1px;
+}
+
+
+
+.btn--small-foto {
+  display: flex;
+}
+ 

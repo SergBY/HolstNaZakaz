@@ -1,0 +1,49 @@
+.cost__points--point {
+  width: 470px;
+  margin-bottom: 55px;
+}
+
+.cost__points--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cost__points--item {
+  margin-left: 47px;
+}
+
+.cost__points--item .btn {
+  margin: 4px 8px;
+}
+
+.cost__points--item .btn--foto-size {
+  margin: 0;
+}
+
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input__file-button-text {
+  line-height: 1;
+  margin-top: 1px;
+}
+
+.btn--small-foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=SectionCostPoints.css.map */

@@ -1,0 +1,11 @@
+.baguette__card input {
+  width: 12px;
+  height: 12px;
+  margin: 10px 5px 10px 0;
+}
+
+.baguette__card--img img {
+  width: 120px;
+  height: 120px;
+}
+/*# sourceMappingURL=BaguetteCard.css.map */

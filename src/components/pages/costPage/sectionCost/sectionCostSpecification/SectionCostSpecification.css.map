@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,mBAAmB,CAAC;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,ECgCE,IAAI;ED/BlB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,mBAAmB;EAC5C,aAAa,EAAE,IAAI;CAClB",
+    "sources": [
+        "SectionCostSpecification.scss",
+        "../../../../../assets/scss/_vars.scss"
+    ],
+    "names": [],
+    "file": "SectionCostSpecification.css"
+}
